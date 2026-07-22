@@ -167,12 +167,12 @@ The above commands are used similarly to the autocorrects you created earlier. F
 
 (go ahead and practice typing this equation, then remove it from your post-lab before moving on).
 
-For another example, lets say we want to enter the equation $$G_{\rm calc}= | \overline{x} - {\rm outlier} | \times \sigma^{-1}$$. Remember that for properly-formatted equations, we don't want it to say *outlier* (in italics) because that would make it seem like the variables *o, u, t, ...*, and we do not want to use the character \* because that can sometimes be a special operator. To enter this, we would type
+For another example, lets say we want to enter the equation $$G_{\rm calc}= \vert \overline{x} - {\rm outlier} \vert \times \sigma^{-1}$$. Remember that for properly-formatted equations, we don't want it to say *outlier* (in italics) because that would make it seem like the variables *o, u, t, ...*, and we do not want to use the character \* because that can sometimes be a special operator. To enter this, we would type
 
-` G_"calc"= | \overbar(x)-"outlier" | \times\sigma^-1 `
+` G_"calc"= \| \overbar(x)-"outlier" \| \times\sigma^-1 `
 
 
-where "`|`" is vertical bar located on the backslash key on most keyboards.
+where "`\|`" is vertical bar located on the backslash key on most keyboards.
 
 In *some versions* of Word it is easy to add a right-justified equation number after your equation. Type your equation as usual and finish with $$\#(X)$$ and then hit enter, where $$X$$ is the number of the equation. Unfortunately, this feature is not available in all versions. Try it after your chemical equation you just entered, but if it doesn't look like
 
