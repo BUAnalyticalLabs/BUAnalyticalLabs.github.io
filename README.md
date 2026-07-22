@@ -48,7 +48,7 @@ The first skill we'll work on is typesetting (adding or arranging content in a p
  If you mix $5.000$ g of with an excess of , (a) what mass and number of molecules of forms? (b) what mass and number of molecules of form?\
 When typesetting your work for this example, the process will be smoother if you have already done the mental work of solving the problem. Begin by balancing the chemical equation for the reaction with your lab partner, writing it out in your lab notebook so you can refer to it when adding the equation to your document. The unbalanced reaction is:
 
-$$\CS{Fe_2O_3} + \CG{CO} \to \CS{Fe} + \CG{CO_2}$$
+$${\rm Fe_2O_3} \, (s) + \CG{CO} \to \CS{Fe} + \CG{CO_2}$$
 
 Once you've balanced the chemical equation, it's time to typeset it into your document. Most of the above equation can be easily entered in a word-processor, and keyboard shortcuts make adding superscripts and subscripts easy. That said, there are some characters and symbols that are much more difficult to enter. For instance, the appropriate chemical equation arrow ($\to$) is not the default arrow in Microsoft Word. There are, however, ways to streamline your workflow here.
 
