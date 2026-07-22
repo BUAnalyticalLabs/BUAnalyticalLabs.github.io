@@ -64,39 +64,39 @@ Also note: it is *perfectly ok* if you don't have time to finish this workshop d
 
 The first skill we'll work on is typesetting (adding or arranging content in a printed document) chemical and mathematical equations with appropriate formatting. To do so, we'll use a sample stoichiometry problem.
 
-**Worked Example #1** If you mix $5.000$ g of ${\rm Fe_2 O_3} \, (s)$ with an excess of ${\rm CO} \, (g)$, (a) what mass and number of molecules of forms? (b) what mass and number of molecules of form?
+**Worked Example #1** If you mix $$5.000$$ g of $${\rm Fe_2 O_3} \, (s)$$ with an excess of $${\rm CO} \, (g)$$, (a) what mass and number of molecules of forms? (b) what mass and number of molecules of form?
 
 When typesetting your work for this example, the process will be smoother if you have already done the mental work of solving the problem. Begin by balancing the chemical equation for the reaction with your lab partner, writing it out in your lab notebook so you can refer to it when adding the equation to your document. The unbalanced reaction is:
 
 $${\rm Fe_2O_3} \, (s) + {\rm CO} \, (g) \to {\rm Fe} \, (s) + {\rm CO_2} \, (g)$$
 
-Once you've balanced the chemical equation, it's time to typeset it into your document. Most of the above equation can be easily entered in a word-processor, and keyboard shortcuts make adding superscripts and subscripts easy. That said, there are some characters and symbols that are much more difficult to enter. For instance, the appropriate chemical equation arrow ($\to$) is not the default arrow in Microsoft Word. There are, however, ways to streamline your workflow here.
+Once you've balanced the chemical equation, it's time to typeset it into your document. Most of the above equation can be easily entered in a word-processor, and keyboard shortcuts make adding superscripts and subscripts easy. That said, there are some characters and symbols that are much more difficult to enter. For instance, the appropriate chemical equation arrow ($$\to$$) is not the default arrow in Microsoft Word. There are, however, ways to streamline your workflow here.
 
 In chemistry, many special characters need to be used more regularly than in everyday life (except when your life is chemistry!). You can insert these characters is by searching through the extensive symbol list in your preferred operating system or text editor.[^1] However, this can take a long time especially with the sheer number of special characters necessary for equations, and several shortcuts exist to streamline the process.
 
 First is memorizing and entering the unicode identifier for the special symbol you desire. Second, you can memorize the keyboard shortcuts for certain special characters, some of which are shown in [the table below](#tab:scharks). The third is the **recommended** method: set up "autocorrect\" replacements for common special characters. This functionality is available in Microsoft Word, is easy to set up, and is easy to use.
 
 <a name="tab:scharks">**Table: Special characters with keyboard shortcuts**</a>
-Character    |  Windows | Mac
--------------|----------|---
-$^{\circ}$ |   0176   | alt+shift+8
-$\mu$      |   00b5   | alt+m
-$\Delta$   |   2206   | alt+j
-$\div$     |   00f7   | alt+/
-$\pm$      |   00b1   | alt+shift+=
-$\pi$      |   03c0   | alt+p
+| Character    |  Windows | Mac |
+|--------------|----------|---|
+| $$^{\circ}$$ |   0176   | alt+shift+8 |
+| $$\mu$$      |   00b5   | alt+m |
+| $$\Delta$$   |   2206   | alt+j |
+| $$\div$$     |   00f7   | alt+/ |
+| $$\pm$$      |   00b1   | alt+shift+= |
+| $$\pi$$      |   03c0   | alt+p |
 
-To set up an autocorrect in Microsoft Word, use one of the other methods above to find and add the character to your document, highlight it, and go to the Autocorrect screen: in Word for Mac 2016, click **Tools $\rightarrow$ AutoCorrect$\ldots$**; and in Word for PC 2016, click **File $\rightarrow$ Options $\rightarrow$ Proofing $\rightarrow$ Autocorrect$\ldots$** In this tool, you can enter the text you want to be replaced with your special character in the field labeled **Replace:** and the **With:** field should already be populated with the special character you selected. [The table below](#tab:scharAuto) shows some recommended autocorrects to set up.
+To set up an autocorrect in Microsoft Word, use one of the other methods above to find and add the character to your document, highlight it, and go to the Autocorrect screen: in Word for Mac 2016, click **Tools $$\rightarrow$$ AutoCorrect$$\ldots$$**; and in Word for PC 2016, click **File $$\rightarrow$$ Options $$\rightarrow$$ Proofing $$\rightarrow$$ Autocorrect$$\ldots$$** In this tool, you can enter the text you want to be replaced with your special character in the field labeled **Replace:** and the **With:** field should already be populated with the special character you selected. [The table below](#tab:scharAuto) shows some recommended autocorrects to set up.
 
 <a name="tab:scharAuto">**Table: Special characters for which autocorrects should be set up**</a>
-Replace       |       With     |   |  Replace |      With
-:-------------| ---------------| --| :--------| ------------
-\\degree      |   $^{\circ}$   |   | \\lrhar  | $\leftrightharpoons$
-\\mu          |      $\mu$     |   |\\to      |   $\to$
-\\Delta       |   $\Delta$     |   |\\pm      |   $\pm$
-\\lambda      |    $\lambda$   |   | \\minus  |   ${}-{}$
-\\varepsilon  |  $\varepsilon$ |   | \\tt     |  $\times10$
-\\nu          |      $\nu$                   
+| Replace       |       With       |   |  Replace |      With |
+|:--------------| -----------------| --| :--------| ------------|
+| \\degree      |   $$^{\circ}$$   |   | \\lrhar  | $$\leftrightharpoons$$ |
+| \\mu          |      $$\mu$$     |   |\\to      |   $$\to$$ |
+| \\Delta       |   $$\Delta$$     |   |\\pm      |   $$\pm$$ |
+| \\lambda      |    $$\lambda$$   |   | \\minus  |   $${}-{}$$ |
+| \\varepsilon  |  $$\varepsilon$$ |   | \\tt     |  $$\times10$$ |
+| \\nu          |      $$\nu$$     |
 
 
 Another benefit of setting this up is that some office productivity suites including Microsoft Office will use these shortcuts across multiple programs; for example, setting this up in Microsoft Word will also set them up in Microsoft Excel. To make this process a little easier, download the file located at <http://goo.gl/sykryo>. This document has many of the important symbols for which you will want to make autocorrects. *There are videos available on the course website to help with setting these up!*
@@ -113,7 +113,7 @@ With the equation editor open, you should get a box centered between the left an
 
 - Units, chemical compound symbols, and full words are **not** italicized. You will need to override the default behavior, as described below.
 
-- Mathematical symbols use the proper character and format, e.g. you must use the product symbol $\times$ for multiplication instead of the variable $x$ (or the computer programming convention asterisk \*) and fractions should have the numerator over the denominator with a horizontal line between them instead of being inline with each other separated by a slash /.
+- Mathematical symbols use the proper character and format, e.g. you must use the product symbol $$\times$$ for multiplication instead of the variable $$x$$ (or the computer programming convention asterisk \*) and fractions should have the numerator over the denominator with a horizontal line between them instead of being inline with each other separated by a slash /.
 
 - If equations are referred to later in the text, a right-justified equation number in parenthesis should be added on the same line as the equation.[^2]
 
@@ -134,44 +134,44 @@ Variable names and numbers will display correctly just by typing them into the e
 >
 > $${\rm Fe_2 O_3} (s)$$
 >
-> Once you have that, go ahead and typeset the rest of the chemical equation following the conventions above and using the autocorrects you created (such as when you need to add the arrow $\to$). Don't forget to balance it!
+> Once you have that, go ahead and typeset the rest of the chemical equation following the conventions above and using the autocorrects you created (such as when you need to add the arrow $$\to$$). Don't forget to balance it!
 
 *There are tutorial videos on the course website that discuss using the equation editor!*
 
 For more complex equations, many of the different functions can be found in the menus for the equation editor, though some of the more relevant and common text shortcuts are shown in [the table below](#tab:equationformat).
 
 <a name="tab:equationformat">**Table: Equation formatting shortcuts in Microsoft Word**</a>
-Command                      | Result            |  | Command            | Result
-:----------------------------|:-----------------:|--|:-------------------|:-:
-\\degree                     | $^{\circ}$      |  | \\gg               | $\gg$
-\\mu                         | $\mu$           |  | \-$>$              | $\rightarrow$
-\\Delta                      | $\Delta$        |  | \\pm               | $\pm$
-\\lambda                     | $\lambda$       |  | \\ll               | $\ll$
-\\varepsilon                 | $\varepsilon$   |  | "NaCl\"            | NaCl
-\\nu                         | $\nu$           |  | "O"\_2             | ${\rm O}_2$
-\\sqrt(x)                    | $\sqrt{x}$      |  | a/b                | $\frac{a}{b}$
-\\propto                     | $\propto$       |  | \\ne               | $\ne$
-\\approx                     | $\approx$       |  | k'                 | $k'$
-\\ge                         | $\ge$           |  | \\le               | $\le$
-\\sum\_(i=1) $\wedge$ n      | $\sum_{i=1}^n$  |  | \\int_0 $\wedge$ 1 | $\int_0^1$
-\\infty                      | $\infty$        |  | \\sim              | $\sim$
-x\\bar                       | $\bar{x}$       |  | \\overbar          | $\overline{x}$
-\\times $10\wedge$ ($a$)     | $\times 10^{a}$ |  | ((ab))/((cd))      | $\left(\frac{a\;b}{c\;d}\right)$
+| Command                      | Result            |  | Command            | Result |
+|:-----------------------------|:-----------------:|--|:-------------------|:-:|
+| \\degree                     | $$^{\circ}$$      |  | \\gg               | $$\gg$$ |
+| \\mu                         | $$\mu$$           |  | \-$$>$$              | $$\rightarrow$$ |
+| \\Delta                      | $$\Delta$$        |  | \\pm               | $$\pm$$ |
+| \\lambda                     | $$\lambda$$       |  | \\ll               | $$\ll$$ |
+| \\varepsilon                 | $$\varepsilon$$   |  | "NaCl\"            | NaCl |
+| \\nu                         | $$\nu$$           |  | "O"\_2             | $${\rm O}_2$$ |
+| \\sqrt(x)                    | $$\sqrt{x}$$      |  | a/b                | $$\frac{a}{b}$$ |
+| \\propto                     | $$\propto$$       |  | \\ne               | $$\ne$$ |
+| \\approx                     | $$\approx$$       |  | k'                 | $$k'$$ |
+| \\ge                         | $$\ge$$           |  | \\le               | $$\le$$ |
+| \\sum\_(i=1) $$\wedge$$ n    | $$\sum_{i=1}^n$$  |  | \\int_0 $$\wedge$$ 1 | $$\int_0^1$$ |
+| \\infty                      | $$\infty$$        |  | \\sim              | $$\sim$$ |
+| x\\bar                       | $$\bar{x}$$       |  | \\overbar          | $$\overline{x}$$ |
+| \\times $$10\wedge$$ ($$a$$) | $$\times 10^{a}$$ |  | ((ab))/((cd))      | $$\left(\frac{a\;b}{c\;d}\right)$$ |
 
-The above commands are used similarly to the autocorrects you created earlier. For example, to display $\Delta E = h\nu$ you would insert a new equation and type
+The above commands are used similarly to the autocorrects you created earlier. For example, to display $$\Delta E = h\nu$$ you would insert a new equation and type
 
 `\DeltaE=h\nu`
 
 (go ahead and practice typing this equation, then remove it from your post-lab before moving on).
 
-For another example, lets say we want to enter the equation $G_{\rm calc}=\left| \overline{x} - {\rm outlier} \right| \times \sigma^{-1}$. Remember that for properly-formatted equations, we don't want it to say *outlier* (in italics) because that would make it seem like the variables *o, u, t, ...*, and we do not want to use the character \* because that can sometimes be a special operator. To enter this, we would type
+For another example, lets say we want to enter the equation $$G_{\rm calc}=\left| \overline{x} - {\rm outlier} \right| \times \sigma^{-1}$$. Remember that for properly-formatted equations, we don't want it to say *outlier* (in italics) because that would make it seem like the variables *o, u, t, ...*, and we do not want to use the character \* because that can sometimes be a special operator. To enter this, we would type
 
-` G_"calc"=|\overbar(x)-"outlier"|\times\sigma`$\wedge$`-1 `
+` G_"calc"=|\overbar(x)-"outlier"|\times\sigma`$$\wedge$$`-1 `
 
 
 where "`|`\" is vertical bar located on the backslash key on most keyboards.
 
-In *some versions* of Word it is easy to add a right-justified equation number after your equation. Type your equation as usual and finish with $\#(X)$ and then hit enter, where $X$ is the number of the equation. Unfortunately, this feature is not available in all versions. Try it after your chemical equation you just entered, but if it doesn't look like
+In *some versions* of Word it is easy to add a right-justified equation number after your equation. Type your equation as usual and finish with $$\#(X)$$ and then hit enter, where $$X$$ is the number of the equation. Unfortunately, this feature is not available in all versions. Try it after your chemical equation you just entered, but if it doesn't look like
 
 $$
     {\rm Fe_2O_3} \; \text{(the rest of the equation goes here)} \tag{1}
@@ -195,13 +195,13 @@ Note: some of the commands in this workshop are typed in bold to help differenti
 
 Now that we have a frame of reference for discussing spreadsheets, let us discuss some of the more fundamental aspects and uses of spreadsheets. One use of a spreadsheet is that it can be used as a basic calculator that stores your results, letting them later be referenced in subsequent calculations. All calculations in the spreadsheet must begin with an equals sign, indicating to the program that you are performing a calculation. Below is a table listing some of the basic mathematical operations and the corresponding commands.
 
-Operation       | Excel command 
-----------------| :-----------:
-Addition        | **=A1+B1**
-Subtraction     | **=A1-B1**
-Multiplication  | **=A1\*B1**
-Division        | **=A1/B1**
-Exponents       | **=A1$\wedge$B1**                       
+| Operation       | Excel command |
+|-----------------| :-----------: |
+| Addition        | **=A1+B1** |
+| Subtraction     | **=A1-B1** |
+| Multiplication  | **=A1\*B1** |
+| Division        | **=A1/B1** |
+| Exponents       | **=A1$\wedge$B1** |                    
 
 Notice that multiplication must be done using the asterisk (\*); Excel does not know how to perform multiplication using "x" or parentheses (i.e., **(A1)(B1)** would not work). Also, Excel follows the standard order of operations rules, so make sure to use nested parentheses to organize work so that the calculations are executed in the appropriate order.
 
@@ -213,11 +213,11 @@ Before doing the calculation in a spreadsheet, work with your partner to determi
 >
 > ![Worked Example #1. This table should be reproduced in your spreadsheet for working through the first worked example.](imgs/excel1.pdf)
 >
-> The number of moles of ${\rm Fe_2 O_3}$ are computed from the mass of ${\rm Fe_2 O_3}$ (5.000 g) and the molar mass ($M = 159.69$ g/mol):
+> The number of moles of $${\rm Fe_2 O_3}$$ are computed from the mass of $${\rm Fe_2 O_3}$$ (5.000 g) and the molar mass ($$M = 159.69$$ g/mol):
 >
 > $$\left(5.000 \; {\rm g} \right) \left(\frac{\rm 1 mol}{\rm 159.69\;g}\right) = 0.03131 \; {\rm mol}$$
 >
-> Solve for the number of moles of ${\rm Fe_2 O_3}$. You should get $0.03131$ moles of ${\rm Fe_2 O_3}$ in cell **D2**.
+> Solve for the number of moles of $${\rm Fe_2 O_3}$$. You should get $$0.03131$$ moles of $${\rm Fe_2 O_3}$$ in cell **D2**.
 
 Before moving on with the spreadsheet, let's practice typesetting this sample calculation:
 
@@ -225,7 +225,7 @@ Before moving on with the spreadsheet, let's practice typesetting this sample ca
 >
 > $$n_{\rm Fe_2 O_3} = \left(5.000 \; {\rm g} \right) \left(\frac{\rm 1 mol}{\rm 159.69\;g}\right) = 0.03131 \; {\rm mol}$$
 >
-> Make sure your calculation has "mol" and not "$mol$". To make the conversion factor above, type the following in equation mode:
+> Make sure your calculation has "mol" and not "$$mol$$". To make the conversion factor above, type the following in equation mode:
 >
 > ` ((1"mol")/(159.69"g")) `
 >
@@ -245,9 +245,9 @@ You may realize that an excessive number of decimal places appear in some of you
 
 That said, you may want to change the number of decimal places that are being displayed to make it easier to read or to see more detail. This is accomplished with the *format cells* feature. With this feature it is possible to edit the numbers displayed within the cells to a different number of decimals, scientific notation, fractions, percentages, and many other formats that you may need. Explore the possibilities.
 
-> Convert values in column D into scientific notation, and all values within the table to have three decimal places (cell should read 9.393E-02, which you would type or write as $9.393\times 10^{-2}$ for any submitted work).
+> Convert values in column D into scientific notation, and all values within the table to have three decimal places (cell should read 9.393E-02, which you would type or write as $$9.393\times 10^{-2}$$ for any submitted work).
 > 
-> Add $= 3.131\times 10^{-2}$ to your sample calculation for **Worked Example #1** in your **post-lab assignment**. Additional details about appropriate practices for formatting and presenting values are given in the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17) chapter 2.
+> Add $$= 3.131\times 10^{-2}$$ to your sample calculation for **Worked Example #1** in your **post-lab assignment**. Additional details about appropriate practices for formatting and presenting values are given in the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17) chapter 2.
 
 With calculators there is always the danger that rounding too early will result in an incorrect answer due to 'roundoff error;' for that reason, you are always advised to not round to the correct number of significant figures until the end of your calculations. That said, one of the big advantages of Excel is that it does not actually round the number that is stored in memory: changing the formatting only limits the precision that is displayed.
 
@@ -261,7 +261,7 @@ When typing out the equations to fill in the blank cells, it is not necessary to
 
 $$=(5.000/159.69)*(3/1)$$
 
-where $159.69$ is the molar mass of and $3/1$ is the stoichiometric ratio. Instead of manually entering the numbers, consider the following version that references the appropriate cells in the table:
+where $$159.69$$ is the molar mass of and $$3/1$$ is the stoichiometric ratio. Instead of manually entering the numbers, consider the following version that references the appropriate cells in the table:
 
 `**=D2\*(B4/B2)**`
 
@@ -303,21 +303,21 @@ When performing future calculations in Excel, we recommend the following practic
 >
 > **Ask your instructor for feedback** on this sheet when you are finished. Their primary role is to give you guidance and feedback to help improve your work.
 >
-> Change the value in cell to $6.500$. **In your Word document**, relabel **Worked Example #1** as **Worked Example #1a** and start a new section for **Worked Example #1b**. Include the values of cells and (the moles of and after changing the mass of ) in your assignment, as well as the sample calculation (properly typeset) for the value of (make sure to follow the guidelines given above).
+> Change the value in cell to $$6.500$$. **In your Word document**, relabel **Worked Example #1** as **Worked Example #1a** and start a new section for **Worked Example #1b**. Include the values of cells and (the moles of and after changing the mass of ) in your assignment, as well as the sample calculation (properly typeset) for the value of (make sure to follow the guidelines given above).
 >
 > Under **Worked Example #1b**, *briefly* explain how cell referencing works and what would have happened if you hadn't used cell references in your spreadsheet.
 
 Hopefully you now realize that it is very valuable to reference cells; especially because if you make a mistake in a calculation you can just go back and correct the one cell with the mistake, and all subsequent cells that include the reference will adjust according to the correction.\
 
-**Worked Example #2** You are preparing a set of dilutions from a stock iron (Fe) solution with initial concentration of $0.50$ mg/L.
+**Worked Example #2** You are preparing a set of dilutions from a stock iron (Fe) solution with initial concentration of $$0.50$$ mg/L.
 
 In a dilution, a small volume of a solution with high concentration is made more dilute by the addition of solvent until the new volume is reached. While the volume changes during this process, the amount of solute taken in the small volume of the original solution remains the same.
 
-The number of moles of solute are computed from the volume of stock (original) solution and the volume of the stock solution used: $n_{\rm solute} = V_{\rm stock} [{\rm stock}]$. Dividing the moles of solute by the final volume of the diluted solution will yield the molar concentration in units of moles per liter. The same principle applies to dilutions using any concentration unit (such as mg/L).
+The number of moles of solute are computed from the volume of stock (original) solution and the volume of the stock solution used: $$n_{\rm solute} = V_{\rm stock} [{\rm stock}]$$. Dividing the moles of solute by the final volume of the diluted solution will yield the molar concentration in units of moles per liter. The same principle applies to dilutions using any concentration unit (such as mg/L).
 
 > Start by opening a new (third) sheet in your Excel document (named WE2) and reproducing the following table:
 >
-> Complete the table (the correct value for cell is $5.0\times 10^{-3}$). **In your post-lab assignment:** what is the value of cell ? Include this value, along with your sample calculation for the value of .\
+> Complete the table (the correct value for cell is $$5.0\times 10^{-3}$$). **In your post-lab assignment:** what is the value of cell ? Include this value, along with your sample calculation for the value of .\
 >
 > Hint: using the dollar signs before both and **2** allows you to keep the cell as a reference cell as you copy equations. In your own words, describe what would have happened if you would have only put a dollar sign in front of the . Include the answer to this question in your **Word document for the post-lab assignment**.
 
@@ -349,7 +349,7 @@ Now you will try to solve some chemistry problems on your own. Please solve thes
 
 **Problem #1 --Dimensional Analysis:** In this problem we will use Excel to do a dimensional analysis problem.
 
-What is the volume of a single water molecule in ${\rm m}^3$? You may or may not find the following information useful: Density of water is $0.9956$ g/mL, melting point of water is $32\;{\rm {}^{o}F}$, the ${\rm p}K_a$ of water is $15.74$, and the molar mass of water is $18.016$ g/mol. Proper units have to be used throughout each calculation to receive credit, and the final answer must contain the correct units and the correct significant figures. Your **post-lab assignment** must include the typset calculation (though Excel will do the math), as well as a *brief* statement of your result. Please note: this is always the case -- math alone is not an appropriate answer to a question; rather, a brief statement such as "The volume of a water molecule \... " is always included.
+What is the volume of a single water molecule in $${\rm m}^3$$? You may or may not find the following information useful: Density of water is $$0.9956$$ g/mL, melting point of water is $$32\;{\rm {}^{o}F}$$, the $${\rm p}K_a$$ of water is $$15.74$$, and the molar mass of water is $18.016$ g/mol. Proper units have to be used throughout each calculation to receive credit, and the final answer must contain the correct units and the correct significant figures. Your **post-lab assignment** must include the typset calculation (though Excel will do the math), as well as a *brief* statement of your result. Please note: this is always the case -- math alone is not an appropriate answer to a question; rather, a brief statement such as "The volume of a water molecule \... " is always included.
 
 ---
 
@@ -359,7 +359,7 @@ When large data sets are collected, performing statistical analysis can help us 
 
 $$s = \sqrt{\frac{\displaystyle\sum_{i=1}^N(x_i-\bar{x})^2}{N-1}}$$
 
-where $s$ is the standard deviation in the set of data, $x_i$ is the value of the $i^{th}$ measurement, $N$ is the total number of measurements, and $\bar{x}$ is the mean value,
+where $$s$$ is the standard deviation in the set of data, $$x_i$$ is the value of the $$i^{th}$$ measurement, $$N$$ is the total number of measurements, and $$\bar{x}$$ is the mean value,
 
 $$\bar{x} = \frac{\sum_{i=1}^{N}x_i}{N}.$$
 
@@ -367,7 +367,7 @@ $$\bar{x} = \frac{\sum_{i=1}^{N}x_i}{N}.$$
 
 *Example -- mean and standard deviation:*
 
-Consider the data set: $5.55, 5.35,  5.15,  5.75,  5.85,  5.20,  5.10$
+Consider the data set: $$5.55, 5.35,  5.15,  5.75,  5.85,  5.20,  5.10$$
 
 The mean (average) value for the data set is:
 
@@ -377,15 +377,15 @@ Using this mean, the standard deviation is then computed as:
 
 $$s =\sqrt{ \frac{\left(5.55-5.4214\right)^2+\left(5.35-5.4214\right)^2+ \cdot\cdot\cdot}{7-1}} = 0.29980...$$
 
-The mean, and standard deviation, of this data set is $5.4_2 \pm 0.3_0$ (the subscript is the first, non-significant figure).
+The mean, and standard deviation, of this data set is $$5.4_2 \pm 0.3_0$$ (the subscript is the first, non-significant figure).
 
 ---
 
 There are several critical pieces of information that were revealed in the example above. Consider the following:
 
-- First, notice that the even though all of the data is recorded with three significant figures, the mean value reported only has two figures (not including the subscript, which will be discussed shortly): $5.4 \pm 0.3$. This is the **real significant figure rule**: we report all values to the number of figures in which we are confident. Here, since the standard deviation is non-zero in the first decimal place, this means that the first decimal place is the last figure in which we are truly confident. In other words, we're sure of the "5" (no uncertainty in this digit) and we have some degree of certainty in the "4", so they are both reported. Because the uncertainty starts in the first decimal place, the "4" is the last significant figure -- the last figure about which we have some degree of certainty.
+- First, notice that the even though all of the data is recorded with three significant figures, the mean value reported only has two figures (not including the subscript, which will be discussed shortly): $$5.4 \pm 0.3$$. This is the **real significant figure rule**: we report all values to the number of figures in which we are confident. Here, since the standard deviation is non-zero in the first decimal place, this means that the first decimal place is the last figure in which we are truly confident. In other words, we're sure of the "5" (no uncertainty in this digit) and we have some degree of certainty in the "4", so they are both reported. Because the uncertainty starts in the first decimal place, the "4" is the last significant figure -- the last figure about which we have some degree of certainty.
 
-- Additionally, the first non-significant figure is reported as a subscript: $5.4_2 \pm 0.3_0$. This is common practice **for average and standard deviation only** so that we eliminate the possibility of subsequent round-off error. Do not report extra figures for any other values other than average and standard deviation.
+- Additionally, the first non-significant figure is reported as a subscript: $$5.4_2 \pm 0.3_0$$. This is common practice **for average and standard deviation only** so that we eliminate the possibility of subsequent round-off error. Do not report extra figures for any other values other than average and standard deviation.
 
 - Finally, while there seem to be a couple of data points that might be outliers (suspect of being erroneous data points), we cannot exclude data based on suspicion. As a result, we include all of the data in our calculations. There are a couple of statistical tests, which will be discussed in later experiments, that can be used to statistically exclude data.
 
@@ -405,25 +405,23 @@ Similar to dilutions, the number of moles of a solute used in a titration are th
 
 $$n_{\rm X} = V\cdot [{\rm X}]$$
 
-where $n_{\rm X}$ is the number of moles of solute "X", $V$ is the volume of the solution (in L), and $[{\rm X}]$ is the molar concentration in M (moles/L). At the equivalence point of the titration, the number of moles of base added are equal to the number of moles of the acid being titrated: $n_{\rm acid} = n_{\rm base}.$
+where $$n_{\rm X}$$ is the number of moles of solute "X", $$V$$ is the volume of the solution (in L), and $$[{\rm X}]$$ is the molar concentration in M (moles/L). At the equivalence point of the titration, the number of moles of base added are equal to the number of moles of the acid being titrated: $$n_{\rm acid} = n_{\rm base}.$$
 
-Consider a titration using a $0.500$ M ${\rm NaOH}$ solution (one liter of this solution contains 0.500 moles of ${\rm Na^+} \, (aq)$ and 0.500 moles of ${\rm OH^-} \, (aq)$) to titrate several aliquots of $25.00$ mL of an ${\rm HCl}$ solution with unknown concentration.
+Consider a titration using a $$0.500$$ M $${\rm NaOH}$$ solution (one liter of this solution contains 0.500 moles of $${\rm Na^+} \, (aq)$$ and 0.500 moles of $${\rm OH^-} \, (aq)$$) to titrate several aliquots of $$25.00$$ mL of an $${\rm HCl}$$ solution with unknown concentration.
 
 Use the data for the volumes of solution required to reach the titration endpoint in the table below, and the skills you've learned in this workshop, to determine the average molar concentration (in M) of the hydrochloric acid solution (starting, before the titration) and the standard deviation.
 
-Trial \# | Volume NaOH (mL)
-:------: | :-:
-1        | 15.55
-2        | 15.77
-1        | 15.55
-2        | 15.77
-3        | 15.54
-4        | 16.01
-5        | 15.89
-6        | 15.99
-7        | 15.62
-8        | 15.66
-9        | 15.71
+| Trial \# | Volume NaOH (mL) |
+|:-------: | :-: |
+| 1        | 15.55 |
+| 2        | 15.77 |
+| 3        | 15.54 |
+| 4        | 16.01 |
+| 5        | 15.89 |
+| 6        | 15.99 |
+| 7        | 15.62 |
+| 8        | 15.66 |
+| 9        | 15.71 |
 
 Hint: Excel has an easy way for you can copy the *formula* of a cell to its neighbors so that repetitive calculations are completed instantaneously. Click on the bottom-righthand corner of the cell with the formula that you want to copy and drag to fill neighboring cells. Ask your instructor for help to do this -- it will be really useful in later experiments.
 
@@ -457,11 +455,11 @@ Using the data you collected at the start of the workshop (day of the month on w
 >
 > Before leaving the lab, make sure that you have gotten feedback on:
 >
-> - [ ] **Typeset equations**: at least one chemical equation and one numeric sample calculation
+> [ ]  **Typeset equations**: at least one chemical equation and one numeric sample calculation
 >
-> - [ ] **Spreadsheet calculations**: both using Excel as a calculator and writing formulas with cell referencing
+> [ ]  **Spreadsheet calculations**: both using Excel as a calculator and writing formulas with cell referencing
 >
-> - [ ] **Creating exhibits**: formatting a graph in Excel, including both it and a formatted table in Word
+> [ ]  **Creating exhibits**: formatting a graph in Excel, including both it and a formatted table in Word
 
 ## Post-Lab Assignment 
 
@@ -489,7 +487,7 @@ Please see your lab instructor or teaching assistant during the lab, or in offic
 >
 > 1. You need to submit your assignment in PDF form. Uploading other types of files will lead to major formatting changes and may not be accepted by Gradescope.
 >
-> 2.  Refresh Gradescope after uploading to make sure that your assignment has been successfully submitted - you should be able to view your uploaded assignment on Gradescope. *It is your responsibility to make sure that your assignment is received.*
+> 2. Refresh Gradescope after uploading to make sure that your assignment has been successfully submitted - you should be able to view your uploaded assignment on Gradescope. *It is your responsibility to make sure that your assignment is received.*
 
 ## Reference -- some useful Excel commands 
 
@@ -509,4 +507,4 @@ If you have a long list of cells and want to determine the $N$ value (number of 
 
 ### If statements
 
-If statements are used to evaluate whether a statement is true or false. If the statement is true the command will return one value, and if the statement is false then the command will return a different value. The command is **=IF(logical test, value if true, value if false)**. For example, if one wanted to determine whether the value in cell is greater than 140 (systolic blood pressure), and if it is greater than 140 that means the person has high blood pressure and if it is less than or equal to 140 the person has normal blood pressure, the command would be: **=IF(C3 $\gt$ 30,"High systolic blood pressure","Normal blood pressure")**.
+If statements are used to evaluate whether a statement is true or false. If the statement is true the command will return one value, and if the statement is false then the command will return a different value. The command is **=IF(logical test, value if true, value if false)**. For example, if one wanted to determine whether the value in cell is greater than 140 (systolic blood pressure), and if it is greater than 140 that means the person has high blood pressure and if it is less than or equal to 140 the person has normal blood pressure, the command would be: **=IF(C3 $$\gt$$ 30,"High systolic blood pressure","Normal blood pressure")**.
