@@ -64,7 +64,7 @@ Also note: it is *perfectly ok* if you don't have time to finish this workshop d
 
 The first skill we'll work on is typesetting (adding or arranging content in a printed document) chemical and mathematical equations with appropriate formatting. To do so, we'll use a sample stoichiometry problem.
 
-**Worked Example #1** If you mix $$5.000$$ g of $${\rm Fe_2 O_3} \, (s)$$ with an excess of $${\rm CO} \, (g)$$, (a) what mass and number of molecules of forms? (b) what mass and number of molecules of form?
+**Worked Example #1:** If you mix $$5.000$$ g of $${\rm Fe_2 O_3} \, (s)$$ with an excess of $${\rm CO} \, (g)$$, (a) what mass and number of molecules of forms? (b) what mass and number of molecules of form?
 
 When typesetting your work for this example, the process will be smoother if you have already done the mental work of solving the problem. Begin by balancing the chemical equation for the reaction with your lab partner, writing it out in your lab notebook so you can refer to it when adding the equation to your document. The unbalanced reaction is:
 
@@ -73,6 +73,9 @@ $${\rm Fe_2O_3} \, (s) + {\rm CO} \, (g) \to {\rm Fe} \, (s) + {\rm CO_2} \, (g)
 Once you've balanced the chemical equation, it's time to typeset it into your document. Most of the above equation can be easily entered in a word-processor, and keyboard shortcuts make adding superscripts and subscripts easy. That said, there are some characters and symbols that are much more difficult to enter. For instance, the appropriate chemical equation arrow ($$\to$$) is not the default arrow in Microsoft Word. There are, however, ways to streamline your workflow here.
 
 In chemistry, many special characters need to be used more regularly than in everyday life (except when your life is chemistry!). You can insert these characters is by searching through the extensive symbol list in your preferred operating system or text editor.[^1] However, this can take a long time especially with the sheer number of special characters necessary for equations, and several shortcuts exist to streamline the process.
+
+[^1]: To find the Character Map in Windows, you can go to ``charmap" from run.  
+On a Mac, go to **System Preferences** $$\rightarrow$$ **Keyboard** $$\rightarrow$$ **Show Keyboard, Emoji, \& Symbol Viewers in menu bar**. This adds a symbol to the top of the screen that can be used to find the special character viewer. In some applications, the Characters window can be opened by pressing ctrl+cmd+space.
 
 First is memorizing and entering the unicode identifier for the special symbol you desire. Second, you can memorize the keyboard shortcuts for certain special characters, some of which are shown in [the table below](#tab:scharks). The third is the **recommended** method: set up "autocorrect\" replacements for common special characters. This functionality is available in Microsoft Word, is easy to set up, and is easy to use.
 
@@ -92,7 +95,7 @@ To set up an autocorrect in Microsoft Word, use one of the other methods above t
 <a name="tab:scharAuto">**Table: Special characters for which autocorrects should be set up**</a>
 
 | Replace       |       With       |   |  Replace |      With |
-|:--------------| -----------------| --| :--------| ------------|
+|---------------|------------------|---|----------| ------------|
 | \\degree      |   $$^{\circ}$$   |   | \\lrhar  | $$\leftrightharpoons$$ |
 | \\mu          |      $$\mu$$     |   |\\to      |   $$\to$$ |
 | \\Delta       |   $$\Delta$$     |   |\\pm      |   $$\pm$$ |
@@ -119,6 +122,8 @@ With the equation editor open, you should get a box centered between the left an
 
 - If equations are referred to later in the text, a right-justified equation number in parenthesis should be added on the same line as the equation.[^2]
 
+[^2]: As you'll see soon, this is not always easy to do quickly depending on your version of Word, so if the directions below don't work, don't worry about the equation number for now.
+
 Variable names and numbers will display correctly just by typing them into the equation editor, but any symbols, text, or formatting will need special commands such as the autocorrects you prepared above. To have the equation editor execute a command (such as replacing your autocorrect text with a symbol), press the spacebar immediately after typing it.
 
 > Let's add the first compound from the reaction in worked example #1, to your equation.
@@ -129,7 +134,7 @@ Variable names and numbers will display correctly just by typing them into the e
 >
 > We'll press spacebar after each part of the equation to execute the command. Therefore, to enter the compound, type
 >
-> ` "Fe" \_ 2 "O" \_ 3 (s) `
+> `"Fe" \_ 2 "O" \_ 3 (s)`
 >
 > where \_ means pressing the spacebar.
 > You should end up with
@@ -169,10 +174,10 @@ The above commands are used similarly to the autocorrects you created earlier. F
 
 For another example, lets say we want to enter the equation $$G_{\rm calc}= \vert \overline{x} - {\rm outlier} \vert \times \sigma^{-1}$$. Remember that for properly-formatted equations, we don't want it to say *outlier* (in italics) because that would make it seem like the variables *o, u, t, ...*, and we do not want to use the character \* because that can sometimes be a special operator. To enter this, we would type
 
-` G_"calc"= \| \overbar(x)-"outlier" \| \times\sigma^-1 `
+`G_"calc"= \| \overbar(x)-"outlier" \| \times\sigma^-1`
 
 
-where "`|`" is vertical bar located on the backslash key on most keyboards.
+where "`\|`" is vertical bar located on the backslash key on most keyboards.
 
 In *some versions* of Word it is easy to add a right-justified equation number after your equation. Type your equation as usual and finish with $$\#(X)$$ and then hit enter, where $$X$$ is the number of the equation. Unfortunately, this feature is not available in all versions. Try it after your chemical equation you just entered, but if it doesn't look like
 
@@ -204,7 +209,7 @@ Now that we have a frame of reference for discussing spreadsheets, let us discus
 | Subtraction     | **=A1 - B1** |
 | Multiplication  | **=A1 \* B1** |
 | Division        | **=A1 / B1** |
-| Exponents       | **=A1 $\wedge$ B1** |                    
+| Exponents       | **=A1 $$\wedge$$ B1** |                    
 
 Notice that multiplication must be done using the asterisk (\*); Excel does not know how to perform multiplication using "x" or parentheses (i.e., **(A1)(B1)** would not work). Also, Excel follows the standard order of operations rules, so make sure to use nested parentheses to organize work so that the calculations are executed in the appropriate order.
 
@@ -214,7 +219,9 @@ Before doing the calculation in a spreadsheet, work with your partner to determi
 
 > Start by generating the following table in your spreadsheet. Don't worry about formatting chemical formulas in Excel with subscripts and superscripts. This is not a trivial thing to do and **isn't necessary**.
 >
-> ![Worked Example #1. This table should be reproduced in your spreadsheet for working through the first worked example.](imgs/excel1.pdf)
+> ![Worked Example #1. This table should be reproduced in your spreadsheet for working through the first worked example.](imgs/excel1.svg)
+>
+> **Worked Example #1.** This table should be reproduced in your spreadsheet for working through the first worked example.
 >
 > The number of moles of $${\rm Fe_2 O_3}$$ are computed from the mass of $${\rm Fe_2 O_3}$$ (5.000 g) and the molar mass ($$M = 159.69$$ g/mol):
 >
@@ -230,7 +237,7 @@ Before moving on with the spreadsheet, let's practice typesetting this sample ca
 >
 > Make sure your calculation has "mol" and not "$$mol$$". To make the conversion factor above, type the following in equation mode:
 >
-> ` ((1"mol")/(159.69"g")) `
+> `((1"mol")/(159.69"g"))`
 >
 > When done, you should have an equation that looks like the one at the top of this box.
 >
@@ -320,15 +327,15 @@ The number of moles of solute are computed from the volume of stock (original) s
 
 > Start by opening a new (third) sheet in your Excel document (named WE2) and reproducing the following table:
 >
-> Complete the table (the correct value for cell is $$5.0\times 10^{-3}$$). **In your post-lab assignment:** what is the value of cell ? Include this value, along with your sample calculation for the value of .\
+> Complete the table (the correct value for cell is $$5.0\times 10^{-3}$$). **In your post-lab assignment:** what is the value of cell **D11**? Include this value, along with your sample calculation for the value of **D11**.
 >
-> Hint: using the dollar signs before both and **2** allows you to keep the cell as a reference cell as you copy equations. In your own words, describe what would have happened if you would have only put a dollar sign in front of the . Include the answer to this question in your **Word document for the post-lab assignment**.
+> Hint: using the dollar signs before both **B** and **2** allows you to keep the cell **B2** as a reference cell as you copy equations. In your own words, describe what would have happened if you would have only put a dollar sign in front of the **B**. Include the answer to this question in your **Word document for the post-lab assignment**.
 
 For the sake of checking your work on this assignment you will need to display the actual formulas used -- so that your lab instructors can see where the data for the calculations originated. **Note:** we are only doing this for this lab so that we can make sure that the formulas you used are correct; these formulas **do not** count as *sample calculations* and you should *not* submit your spreadsheets for grading.
 
 Displaying the equation or formula can be accomplished using the following steps: Start by clicking on the cell until the formula becomes visible. Select the formula and click 'copy.' 'Paste' the formula into the desired cell and insert an apostrophe (') before the equals sign.
 
-> Fill in column **E** (**E8--E11**) on sheet "WE2" with the correct formulas from --D11.
+> Fill in column **E** (**E8--E11**) on sheet "WE2" with the correct formulas from **D8--D11**.
 > 
 > **Ask your instructor** to come check your work and give you feedback on this sheet when you are finished.
 
@@ -350,9 +357,9 @@ Now you will try to solve some chemistry problems on your own. Please solve thes
 
 ---
 
-**Problem #1 --Dimensional Analysis:** In this problem we will use Excel to do a dimensional analysis problem.
+**Problem #1 -- Dimensional Analysis:** In this problem we will use Excel to do a dimensional analysis problem.
 
-What is the volume of a single water molecule in $${\rm m}^3$$? You may or may not find the following information useful: Density of water is $$0.9956$$ g/mL, melting point of water is $$32\;{\rm {}^{o}F}$$, the $${\rm p}K_a$$ of water is $$15.74$$, and the molar mass of water is $18.016$ g/mol. Proper units have to be used throughout each calculation to receive credit, and the final answer must contain the correct units and the correct significant figures. Your **post-lab assignment** must include the typset calculation (though Excel will do the math), as well as a *brief* statement of your result. Please note: this is always the case -- math alone is not an appropriate answer to a question; rather, a brief statement such as "The volume of a water molecule \... " is always included.
+What is the volume of a single water molecule in $${\rm m}^3$$? You may or may not find the following information useful: Density of water is $$0.9956$$ g/mL, melting point of water is $$32{\rm {}^{o}F}$$, the $${\rm p}K_a$$ of water is $$15.74$$, and the molar mass of water is $18.016$ g/mol. Proper units have to be used throughout each calculation to receive credit, and the final answer must contain the correct units and the correct significant figures. Your **post-lab assignment** must include the typset calculation (though Excel will do the math), as well as a *brief* statement of your result. Please note: this is always the case -- math alone is not an appropriate answer to a question; rather, a brief statement such as "The volume of a water molecule \... " is always included.
 
 ---
 
@@ -442,7 +449,7 @@ Unfortunately, the format and types of default graphs that Excel makes are far f
 
 **Problem \#3 -- Tabulating and Presenting Data:** In this problem will use Excel to tabulate and graph data that is collected.
 
-Using the data you collected at the start of the workshop (day of the month on which 10 people from your section were born and the house number where they live), prepare a table and graph of this data, following the guidelines provided in chapter 2 of the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17). Include these exhibits of your data in your **post-lab assignment**. Be careful to *follow all of the guidelines* for preparing appropriate tables and figures, including things like formatting, **captions** for figures, **titles**Undergraduate's Guide to Writing in the Sciences for tables, and more.\
+Using the data you collected at the start of the workshop (day of the month on which 10 people from your section were born and the house number where they live), prepare a table and graph of this data, following the guidelines provided in chapter 2 of the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17). Include these exhibits of your data in your **post-lab assignment**. Be careful to *follow all of the guidelines* for preparing appropriate tables and figures, including things like formatting, **captions** for figures, **titles**Undergraduate's Guide to Writing in the Sciences for tables, and more.
 
 *There are videos available on the course website to help with creating tables and graphs in Excel and Word*. Also, **ask you lab instructor for feedback** on your completed exhibits.
 
@@ -494,7 +501,7 @@ Please see your lab instructor or teaching assistant during the lab, or in offic
 
 ## Reference -- some useful Excel commands 
 
-For many commands it is useful to be able to reference a range of cells. To select, or reference, an array of cells you need to list to top-left-corner cell and the bottom-right-corner cell with a colon between them. For example, the two-by-four array of cells starting on the top-left of the sheet is :B4.
+For many commands it is useful to be able to reference a range of cells. To select, or reference, an array of cells you need to list to top-left-corner cell and the bottom-right-corner cell with a colon between them. For example, the two-by-four array of cells starting on the top-left of the sheet is **A1:B4**.
 
 ### Average
 
@@ -506,7 +513,7 @@ Calculating the standard deviation is very similar to calculating the average va
 
 ### Count cells
 
-If you have a long list of cells and want to determine the $N$ value (number of data points) for future calculations, use the **=COUNT(array-of-cells)** command. This array can be one or two-dimensional.
+If you have a long list of cells and want to determine the $$N$$ value (number of data points) for future calculations, use the **=COUNT(array-of-cells)** command. This array can be one or two-dimensional.
 
 ### If statements
 
