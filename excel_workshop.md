@@ -172,7 +172,7 @@ For another example, lets say we want to enter the equation $$G_{\rm calc}= \ver
 ` G_"calc"= \| \overbar(x)-"outlier" \| \times\sigma^-1 `
 
 
-where "`\|`" is vertical bar located on the backslash key on most keyboards.
+where "`|`" is vertical bar located on the backslash key on most keyboards.
 
 In *some versions* of Word it is easy to add a right-justified equation number after your equation. Type your equation as usual and finish with $$\#(X)$$ and then hit enter, where $$X$$ is the number of the equation. Unfortunately, this feature is not available in all versions. Try it after your chemical equation you just entered, but if it doesn't look like
 
