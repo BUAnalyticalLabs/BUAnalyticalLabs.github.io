@@ -77,6 +77,7 @@ In chemistry, many special characters need to be used more regularly than in eve
 First is memorizing and entering the unicode identifier for the special symbol you desire. Second, you can memorize the keyboard shortcuts for certain special characters, some of which are shown in [the table below](#tab:scharks). The third is the **recommended** method: set up "autocorrect\" replacements for common special characters. This functionality is available in Microsoft Word, is easy to set up, and is easy to use.
 
 <a name="tab:scharks">**Table: Special characters with keyboard shortcuts**</a>
+
 | Character    |  Windows | Mac |
 |--------------|----------|---|
 | $$^{\circ}$$ |   0176   | alt+shift+8 |
@@ -89,6 +90,7 @@ First is memorizing and entering the unicode identifier for the special symbol y
 To set up an autocorrect in Microsoft Word, use one of the other methods above to find and add the character to your document, highlight it, and go to the Autocorrect screen: in Word for Mac 2016, click **Tools $$\rightarrow$$ AutoCorrect$$\ldots$$**; and in Word for PC 2016, click **File $$\rightarrow$$ Options $$\rightarrow$$ Proofing $$\rightarrow$$ Autocorrect$$\ldots$$** In this tool, you can enter the text you want to be replaced with your special character in the field labeled **Replace:** and the **With:** field should already be populated with the special character you selected. [The table below](#tab:scharAuto) shows some recommended autocorrects to set up.
 
 <a name="tab:scharAuto">**Table: Special characters for which autocorrects should be set up**</a>
+
 | Replace       |       With       |   |  Replace |      With |
 |:--------------| -----------------| --| :--------| ------------|
 | \\degree      |   $$^{\circ}$$   |   | \\lrhar  | $$\leftrightharpoons$$ |
@@ -141,6 +143,7 @@ Variable names and numbers will display correctly just by typing them into the e
 For more complex equations, many of the different functions can be found in the menus for the equation editor, though some of the more relevant and common text shortcuts are shown in [the table below](#tab:equationformat).
 
 <a name="tab:equationformat">**Table: Equation formatting shortcuts in Microsoft Word**</a>
+
 | Command                      | Result            |  | Command            | Result |
 |:-----------------------------|:-----------------:|--|:-------------------|:-:|
 | \\degree                     | $$^{\circ}$$      |  | \\gg               | $$\gg$$ |
@@ -164,12 +167,12 @@ The above commands are used similarly to the autocorrects you created earlier. F
 
 (go ahead and practice typing this equation, then remove it from your post-lab before moving on).
 
-For another example, lets say we want to enter the equation $$G_{\rm calc}=\left| \overline{x} - {\rm outlier} \right| \times \sigma^{-1}$$. Remember that for properly-formatted equations, we don't want it to say *outlier* (in italics) because that would make it seem like the variables *o, u, t, ...*, and we do not want to use the character \* because that can sometimes be a special operator. To enter this, we would type
+For another example, lets say we want to enter the equation $$G_{\rm calc}= | \overline{x} - {\rm outlier} | \times \sigma^{-1}$$. Remember that for properly-formatted equations, we don't want it to say *outlier* (in italics) because that would make it seem like the variables *o, u, t, ...*, and we do not want to use the character \* because that can sometimes be a special operator. To enter this, we would type
 
-` G_"calc"=|\overbar(x)-"outlier"|\times\sigma`$$\wedge$$`-1 `
+` G_"calc"= | \overbar(x)-"outlier" | \times\sigma^-1 `
 
 
-where "`|`\" is vertical bar located on the backslash key on most keyboards.
+where "`|`" is vertical bar located on the backslash key on most keyboards.
 
 In *some versions* of Word it is easy to add a right-justified equation number after your equation. Type your equation as usual and finish with $$\#(X)$$ and then hit enter, where $$X$$ is the number of the equation. Unfortunately, this feature is not available in all versions. Try it after your chemical equation you just entered, but if it doesn't look like
 
@@ -197,11 +200,11 @@ Now that we have a frame of reference for discussing spreadsheets, let us discus
 
 | Operation       | Excel command |
 |-----------------| :-----------: |
-| Addition        | **=A1+B1** |
-| Subtraction     | **=A1-B1** |
-| Multiplication  | **=A1\*B1** |
-| Division        | **=A1/B1** |
-| Exponents       | **=A1$\wedge$B1** |                    
+| Addition        | **=A1 + B1** |
+| Subtraction     | **=A1 - B1** |
+| Multiplication  | **=A1 \* B1** |
+| Division        | **=A1 / B1** |
+| Exponents       | **=A1 $\wedge$ B1** |                    
 
 Notice that multiplication must be done using the asterisk (\*); Excel does not know how to perform multiplication using "x" or parentheses (i.e., **(A1)(B1)** would not work). Also, Excel follows the standard order of operations rules, so make sure to use nested parentheses to organize work so that the calculations are executed in the appropriate order.
 
