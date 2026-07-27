@@ -8,9 +8,7 @@ Mass, while useful for indicating the total amount of matter present, cannot by 
 
 Unlike many of the constants that you've seen before, such as the speed of light or Planck's constant, Avogadro's number is not fundamental; rather, $$N_A$$ is a defined quantity based on the number of carbon-12 atoms in 12 g of $${\rm ^{12}C}$$. Specifically, 12 g of $${\rm ^{12}C}$$ is defined as containing exactly 1 mole of$${\rm ^{12}C}$$ atoms. The actual mass of a single carbon-12 atom is $$1.99265 \times 10^{-23}$$ g, which means that the number of atoms in a mole is 
 
-$$\begin{equation}
-    N_A = \frac{\rm 12\;g / mole}{\rm 1.99265\times 10^{-23}\;g} = 6.022 \times 10^{23} / {\rm mole}.
-\end{equation}$$
+$$N_A = \frac{\rm 12\;g / mole}{\rm 1.99265\times 10^{-23}\;g} = 6.022 \times 10^{23} / {\rm mole}. \tag{1}$$
 
 In this experiment we will use Avogadro's constant to estimate the surface area of the head (polar portion) of a molecule of stearic acid. The procedure will involve preparing a single-layer film, known as a monolayer, of known area over the surface of a Petri dish. Long-chain fatty acid molecules, such as stearic acid $${\rm C_{18}H_{36}O_{2}}$$, spread on a water surface to form a monolayer with polar carboxylic acid groups $${\rm-CO_{2}H}$$ in the aqueous phase and non-polar hydrocarbon chains aligned vertically in the air, as shown in [Figure 1](#fig:monofilm).
 
@@ -32,16 +30,12 @@ To compute the surface area of a stearic acid molecule we will need to experimen
 *Accuracy* refers to the degree of proximity between a measured value, or set of measurements, and the actual/true value. The simplest measure of experimental accuracy, or agreement, is the *percent relative difference*, sometimes called 'percent error.' There are two different formulas that are used for computing the percent difference, depending on the types of values that are being compared. In cases where we are comparing the value that we determined experimentally ($$x_0$$) to a well-established value ($$\mu_0$$), the percent relative difference between $$x_0$$ and $$\mu_0$$ is computed as:
 
 <a name="eq:PRDa"></a>
-$$\begin{equation}
-        \% {\rm difference} = \frac{\vert x_0-\mu_0 \vert}{\mu_0} \times 100\%.
-\end{equation}$$
+$$\% {\rm difference} = \frac{\vert x_0-\mu_0 \vert}{\mu_0} \times 100\%. \tag{2}$$
 
 [Equation 2](#eq:PRDa) is only used when the experimental value is being compared to a known value that is considered to be authoritative ($$\mu_0$$), presumably because it has been studied many times, has been established for many years, or is accepted by the scientific community-at-large to be "true." If, however, neither of the values is considered to be well-established or authoritative, then the percent relative difference is computed as:
 
 <a name="eq:PRDb"></a>
-$$\begin{equation}
-        \% {\rm difference} = \frac{\vert x_0-x_1 \vert}{(x_0+x_1)/2} \times 100\%
-\end{equation}$$
+$$\% {\rm difference} = \frac{\vert x_0-x_1 \vert}{(x_0+x_1)/2} \times 100\% \tag{3}$$
 
 where $$x_0$$ is the experimental value that you determine and $$x_1$$ is the other value to which you are comparing your results.
 
@@ -57,15 +51,13 @@ The other type of error introduced in experiments is *random error* (i.e., not s
 
 Unlike bias which causes each value measured to be incorrect by the same amount (or percent), random error is the result of random fluctuations in procedures and instruments beyond the experimenter's control. These factors lead to measurements that may be higher or lower than the "true" value, but are not consistent. Random error can be minimized by making multiple measurements of the same value and averaging (since the results are scattered randomly around the true value). It is important to note, however, that replicate measurements will not help to eliminate experimental bias. In that case, replicate measurements can lead to a value with a high degree of precision, but that still lacks accuracy.
 
-By performing a measurement several times we can quantify the amount of type A uncertainty by computing the standard deviation of the data set: $$\begin{equation}
-        s = \sqrt{\frac{\displaystyle\sum_{i=1}^N(x_i-\bar{x})^2}{N-1}}
-\end{equation}$$
+By performing a measurement several times we can quantify the amount of type A uncertainty by computing the standard deviation of the data set:
+
+$$s = \sqrt{\frac{\displaystyle\sum_{i=1}^N(x_i-\bar{x})^2}{N-1}} \tag{4}$$
 
 where $$s$$ is the standard deviation in the set of data, $$x_i$$ is the value of the $$i^{th}$$ measurement, $$N$$ is the total number of measurements, and $$\bar{x}$$ is the mean value,
 
-$$\begin{equation}
-        \bar{x} = \frac{\sum_{i=1}^{N}x_i}{N}.
-\end{equation}$$
+$$\bar{x} = \frac{\sum_{i=1}^{N}x_i}{N}. \tag{5}$$
 
 ---
 
@@ -123,24 +115,24 @@ Report relative standard deviations to the number of significant figures of the 
 
 ### Estimating error from measurements (type B uncertainty) 
 
-Unlike type A uncertainty, that is determined by replicate measurements and their statistics, a type B evaluation of standard uncertainty is usually based on scientific judgment using all the relevant information available. In some cases, this evaluation is made by the scientist based on their perceived limits of certainty, their previous experience with a piece of equipment, or their general knowledge of the behavior or properties of an instrument. For example: when measuring a length with a ruler that has increments of $0.1$ cm, the person making the measurement will likely be able to estimate the actual length to $$\pm 0.03$$ or $$\pm 0.05$$ cm, depending on the model and their proficiency with the device. In this case, they would record two values (starting point and ending point), each with an associated uncertainty. The total uncertainty in the measurement will then be calculated from the propagation of the two values.
+Unlike type A uncertainty, that is determined by replicate measurements and their statistics, a type B evaluation of standard uncertainty is usually based on scientific judgment using all the relevant information available. In some cases, this evaluation is made by the scientist based on their perceived limits of certainty, their previous experience with a piece of equipment, or their general knowledge of the behavior or properties of an instrument. For example: when measuring a length with a ruler that has increments of $$0.1 \, {\rm cm}$$, the person making the measurement will likely be able to estimate the actual length to $$\pm 0.03$$ or $$\pm 0.05 \, {\rm cm}$$, depending on the model and their proficiency with the device. In this case, they would record two values (starting point and ending point), each with an associated uncertainty. The total uncertainty in the measurement will then be calculated from the propagation of the two values.
 
-In many other cases that we will deal with, the manufacturers of the equipment will have already thoroughly tested the instruments and have determined a tolerance (standard uncertainty) for the piece of equipment. For example: an analytical balance that is properly calibrated is capable of displaying masses to four (4) decimal places. The manufacturers will then certify that the analytical balance is therefore able to report masses with an uncertainty of $\pm 0.0001\; {\rm g}$. The minimum uncertainties of some popular glassware[^1] and instruments are listed in Table (actual uncertainties for individual pieces may differ -- make sure to check the actual pieces of glassware).
+In many other cases that we will deal with, the manufacturers of the equipment will have already thoroughly tested the instruments and have determined a tolerance (standard uncertainty) for the piece of equipment. For example: an analytical balance that is properly calibrated is capable of displaying masses to four (4) decimal places. The manufacturers will then certify that the analytical balance is therefore able to report masses with an uncertainty of $$\pm 0.0001 \, {\rm g}$$. The minimum uncertainties of some popular glassware[^1] and instruments are listed in Table (actual uncertainties for individual pieces may differ -- make sure to check the actual pieces of glassware).
 
 [^1]: The uncertainty of a piece of glassware will generally be written on the piece itself. The uncertainties of volumetric flasks and pipettes are specific to individual sizes.
 
 Finally, some values have an accepted uncertainty and can usually be found in handbooks or the literature. For now, we will not concern ourselves with propagating multiple sources of uncertainty (we will do some of that in a later experiment); rather, we will focus on understanding the largest sources of uncertainty in our experiment, what is the chemistry behind those uncertainties, and how we could possible minimize (or eliminate) them.
 
-|Instrument                  |       |     Uncertainty   |
-|:---------------------------|-------|------------------:|
-|Analytical Balance          |       |  $$\pm 0.0001$$ g |
-|Top-loading Balance         |       |    $$\pm 0.01$$ g |
-|Burette (50 mL)             |       |   $$\pm 0.03$$ mL |
-|Graduated Cylinder (50 mL)  |       |    $$\pm 0.3$$ mL |
+|Instrument                  |       |              Uncertainty   |
+|:---------------------------|-------|---------------------------:|
+|Analytical Balance          |       |  $$\pm 0.0001 \, {\rm g}$$ |
+|Top-loading Balance         |       |    $$\pm 0.01 \, {\rm g}$$ |
+|Burette (50 mL)             |       |   $$\pm 0.03 \, {\rm mL}$$ |
+|Graduated Cylinder (50 mL)  |       |    $$\pm 0.3 \, {\rm mL}$$ |
 
 ### Other sources of experimental uncertainty 
 
-It is easy to see that equipment and glassware introduce experimental uncertainty. That said, when used properly, analytical glassware and instrumentation tend to contribute relatively little error compared to the total uncertainty in an experiment. For instance: when an analytical balance ($$\pm 0.0001$$ g uncertainty per measurement) is used to measure the mass of an $0.2$ g sample, then the percent relative uncertainty is $(0.0001/0.2)\times 100\% = 0.05\%$. As long as the overall experimental uncertainty is around $0.05-0.1\%$, then the uncertainty in the mass *could* be the culprit responsible.
+It is easy to see that equipment and glassware introduce experimental uncertainty. That said, when used properly, analytical glassware and instrumentation tend to contribute relatively little error compared to the total uncertainty in an experiment. For instance: when an analytical balance ($$\pm 0.0001 \, {\rm g}$$ uncertainty per measurement) is used to measure the mass of an $$0.2 \, {\rm g}$$ sample, then the percent relative uncertainty is $$(0.0001/0.2)\times 100\% = 0.05\%$$. As long as the overall experimental uncertainty is around $$0.05-0.1\%$$, then the uncertainty in the mass *could* be the culprit responsible.
 
 More likely, however, is that most experiments will have much larger overall uncertainties compared to the uncertainty that is introduced from glassware, equipment, and instrumentation. As such we need to look for more significant sources of error -- usually related to the chemistry and limitations of the experiment. For example: in an experiment that involves precipitating a solid we would likely see a lot of uncertainty introduced by virtue of the fact that some of the solid will remain dissolved.
 
@@ -158,7 +150,7 @@ You will notice *Notebook Tips* throughout the procedures of some of the earlier
 
 ### Calibration of the micropipette 
 
-First, the micropipette must be calibrated so that the actual volume of liquid delivered by the instrument is known with some degree of certainty. The mass of water delivered (and the water temperature) are used to determine the actual volume of water delivered when the micropipette is set to deliver 10 $$\mu{\rm L}$$ and 20 $$\mu{\rm L}$$. For each setting, 10 replicate weight measurements will be collected. Once calibrated, be certain to use the same micropipette for all subsequent measurements.
+First, the micropipette must be calibrated so that the actual volume of liquid delivered by the instrument is known with some degree of certainty. The mass of water delivered (and the water temperature) are used to determine the actual volume of water delivered when the micropipette is set to deliver $$10 \, \mu{\rm L}$$ and $$20 \, \mu{\rm L}$$. For each setting, 10 replicate weight measurements will be collected. Once calibrated, be certain to use the same micropipette for all subsequent measurements.
 
 *Notebook tip: a properly prepared notebook will have tables next to the procedure for the actual masses used in the experiment. Make sure to prepare these tables ahead of time, and leave plenty of room for the values.*
 
@@ -166,21 +158,21 @@ First, the micropipette must be calibrated so that the actual volume of liquid d
 
 - Label your micropipette with labeling tape.
 
-- Set the micropipette to the volume aliquot for the first set of measurements (10 $$\mu{\rm L}$$). Always turn the dial inward to a volume smaller than the volume you desire (say to 7 $$\mu{\rm L}$$, in this case), then slowly back the dial out to the correct volume. Proceed to the analytical balance you will be using for the experiment.
+- Set the micropipette to the volume aliquot for the first set of measurements ($$10 \, \mu{\rm L}$$). Always turn the dial inward to a volume smaller than the volume you desire (say to $$7 \, \mu{\rm L}$$, in this case), then slowly back the dial out to the correct volume. Proceed to the analytical balance you will be using for the experiment.
 
 - Add a few drops of water to the dry 100 mL beaker, then carefully place the beaker on the pan of the analytical balance. Close all balance doors, then tare the weight of the beaker --- the balance should show a display of zeros.
 
 - Record the temperature of the deionized water in the 100 mL beaker. Insert the micropipette into the deionized water until the tip is submerged about 1 cm. Keep the micropipette vertical. Slowly depress the plunger, wait several seconds, then slowly release the plunger. Wait several seconds more before removing the micropipette tip from the water. Hover the micropipette over the beaker on the balance pan; slowly depress the plunger to deliver the aliquot of water into the beaker and close the lid of the balance. Read and record the weight shown on the balance.
 
-- Tare the balance again, add another aliquot of water, read and record the weight. Repeat this process to collect 10 measurements. When ten measurements have been recorded, record the temperature of the water again. Repeat the process for the second calibration point, 20 $$\mu{\rm L}$$ (*this is a good time for partners to switch roles so that each partner can have a chance to practice with the micropipette*).
+- Tare the balance again, add another aliquot of water, read and record the weight. Repeat this process to collect 10 measurements. When ten measurements have been recorded, record the temperature of the water again. Repeat the process for the second calibration point, $$20 \, \mu{\rm L}$$ (*this is a good time for partners to switch roles so that each partner can have a chance to practice with the micropipette*).
 
 ### Determining the size of a stearic acid molecule 
 
-A sample of stearic acid dissolved in hexanes ($$\sim$$ 0.140 g/L) will be provided. Make sure to record the exact concentration specified on the label. *Why is it important to always record the actual concentrations?* Keep your sample covered at all times when not in use. *Why is it important to keep the sample covered? This is a post-lab question.*
+A sample of stearic acid dissolved in hexanes ($$\sim 0.140 \, {\rm g/L}$$) will be provided. Make sure to record the exact concentration specified on the label. *Why is it important to always record the actual concentrations?* Keep your sample covered at all times when not in use. *Why is it important to keep the sample covered? This is a post-lab question.*
 
 - Acquire a glass Petri dish and measure its *inner* diameter.
 
-- Wash the Petri dish with detergent and rinse it thoroughly with water and then with deionized water. Place it on a level area of the bench on top of a paper towel (for better visibility) and fill about halfway with deionized water. Add a very small amount ($$\sim 5$$ mg) of ; the purple color from the permanganate will help you to better discern the organic phase.
+- Wash the Petri dish with detergent and rinse it thoroughly with water and then with deionized water. Place it on a level area of the bench on top of a paper towel (for better visibility) and fill about halfway with deionized water. Add a very small amount ($$\sim 5 \, {\rm mg}$$) of ; the purple color from the permanganate will help you to better discern the organic phase.
 
 - Label a beaker and add approximately 15 mL of the stearic acid solution. Always label solutions being used.
 
@@ -192,9 +184,9 @@ A sample of stearic acid dissolved in hexanes ($$\sim$$ 0.140 g/L) will be provi
 
 [^3]: Pilot runs/titrations are extraordinarily useful. In many cases we will not know how much titrant is required for a given titration. We use a quick pilot (large volumes), where we do not concern ourselves with accuracy, in order to get an idea of how much solution is required. In subsequent runs you may then add 80-90% of the anticipated volume (from the pilot) and proceed more carefully from there.
 
-- Wash and rinse the Petri dish with detergent and water as before. Repeat the procedure five more times (or more if required), but adjusting the micropipette to deliver 10 $$\mu{\rm L}$$ at each addition as you approach the endpoint in order to get a more precise value. If a run differs significantly from the others, repeat until you have at least five values that agree within $$\pm 10 \, \mu{\rm L}$$. That said, make sure that at least one trial differs from the rest in the number of 10 and 20 $$\mu{\rm L}$$ aliquots.
+- Wash and rinse the Petri dish with detergent and water as before. Repeat the procedure five more times (or more if required), but adjusting the micropipette to deliver $$10 \, \mu{\rm L}$$ at each addition as you approach the endpoint in order to get a more precise value. If a run differs significantly from the others, repeat until you have at least five values that agree within $$\pm 10 \, \mu{\rm L}$$. That said, make sure that at least one trial differs from the rest in the number of $$10$$ and $$20 \, \mu{\rm L}$$ aliquots.
 
-  **Note:** make sure to keep track separately of how many 10 $$\mu{\rm L}$$ aliquots and how many 20 $$\mu{\rm L}$$ aliquots you add for each trial. The total volume will be determined from the calibrated volumes of the aliquots, not the setting (i.e., seven 20-$$\mu{\rm L}$$ aliquots will **NOT** be 140 $$\mu{\rm L}$$!).
+  **Note:** make sure to keep track separately of how many $$10 \, \mu{\rm L}$$ aliquots and how many $$20 \, \mu{\rm L}$$ aliquots you add for each trial. The total volume will be determined from the calibrated volumes of the aliquots, not the setting (i.e., seven $$20 \, \mu{\rm L}$$ aliquots will **NOT** be $$140 \mu{\rm L}$$!).
 
 ## Safety and Waste Disposal 
 
