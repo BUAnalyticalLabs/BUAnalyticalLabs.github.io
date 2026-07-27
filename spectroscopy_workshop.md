@@ -34,7 +34,7 @@ The energies of the light in UV and visible light region of the spectrum are of 
 
 ## Anatomy of absorption spectrophotometers 
 
-The actual internal components of a spectrophotometer are highly dependent on the type (UV/Vis, AA, fluorescence, IR, etc.) and model, and they include things like beam splitters, mirrors, lenses, and much more. That said, most absorption spectrophotometers have five key components that are common to all instruments: light source, wavelength selectors (monochromators), sample, detector, and readout; see [Figure 3](fig:boxdiagram-spectrometer).
+The actual internal components of a spectrophotometer are highly dependent on the type (UV/Vis, AA, fluorescence, IR, etc.) and model, and they include things like beam splitters, mirrors, lenses, and much more. That said, most absorption spectrophotometers have five key components that are common to all instruments: light source, wavelength selectors (monochromators), sample, detector, and readout; see [Figure 3](#fig:boxdiagram-spectrometer).
 
 The primary function of an absorption spectrophotometer is to measure the *transmittance*, $$T$$, of *monochromatic* light through a sample:
 
