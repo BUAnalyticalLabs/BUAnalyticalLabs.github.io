@@ -174,10 +174,10 @@ The above commands are used similarly to the autocorrects you created earlier. F
 
 For another example, lets say we want to enter the equation $$G_{\rm calc}= \vert \overline{x} - {\rm outlier} \vert \times \sigma^{-1}$$. Remember that for properly-formatted equations, we don't want it to say *outlier* (in italics) because that would make it seem like the variables *o, u, t, ...*, and we do not want to use the character \* because that can sometimes be a special operator. To enter this, we would type
 
-`G_"calc"= \| \overbar(x)-"outlier" \| \times\sigma^-1`
+`G_"calc"=`$$\vert$$`\overbar(x)-"outlier"`$$\vert$$`\times\sigma^-1`
 
 
-where "`\|`" is vertical bar located on the backslash key on most keyboards.
+where "$$\vert$$" is vertical bar located on the backslash key on most keyboards.
 
 In *some versions* of Word it is easy to add a right-justified equation number after your equation. Type your equation as usual and finish with $$\#(X)$$ and then hit enter, where $$X$$ is the number of the equation. Unfortunately, this feature is not available in all versions. Try it after your chemical equation you just entered, but if it doesn't look like
 
@@ -518,3 +518,5 @@ If you have a long list of cells and want to determine the $$N$$ value (number o
 ### If statements
 
 If statements are used to evaluate whether a statement is true or false. If the statement is true the command will return one value, and if the statement is false then the command will return a different value. The command is **=IF(logical test, value if true, value if false)**. For example, if one wanted to determine whether the value in cell is greater than 140 (systolic blood pressure), and if it is greater than 140 that means the person has high blood pressure and if it is less than or equal to 140 the person has normal blood pressure, the command would be: **=IF(C3 $$\gt$$ 30,"High systolic blood pressure","Normal blood pressure")**.
+
+## Footnotes
