@@ -40,7 +40,7 @@ A note about excitation of electron clouds: the process of light being absorbed 
 
 To model the $$\pi$$ molecular orbitals for our dyes we will use the simplest quantum mechanical model for a one-dimensional system: the 1D "particle-in-a-box" model. In this model, the molecular orbitals -- the electron cloud -- are modeled as a quantum object confined to a 1-dimensional box of length $$L$$ by inifinitely large potential barriers at the edges of the box. For our purposes, we will start by assuming that $$L$$ is the length of the conjugated $$\pi$$-system, meaning the total distance from nitrogen to nitrogen. We will also assume that the potential energy of the electrons is zero along the length of the $$\pi$$-system (this is one of the assumptions necessary for a 1D particile in a box model) and infinity outside of the $$\pi$$-system (i.e., that the barriers at the edges are inifinitely high). The particle-in-a-box model can be used to describe the electron cloud as a standing wave that is confined to a region of 1D space by "walls" with infinite potential energy ($$V_0 = V_L = \infty$$). The particle-in-a-box model predicts that the allowed energies are given by
 
-<a name="eq:e1></a>
+<a name="eq:e1"></a>
 
 $$E_n = \frac{n^2h^2}{8m_eL^2} \tag{1}$$
 
@@ -54,7 +54,7 @@ $$S_0 \equiv n_1^2 n_2^2 n_3^2 n_4^2 n_5^2 n_6^2 n_7^2 n_8^0 \tag{2}$$
 
 where $$n_i^j$$ is the $$i^{th}$$ energy level that contains $$j$$ electrons (0, 1, or 2). In the case of our 14-electron system, the first seven levels are occupied (14/2 = 7) and the lowest unoccupied state is the 8th level ([Figure 4](#fig:photoexcitelevels), left side).
 
-It follows that the first excited-state electron configuration ($$S_1$$) that will result from the excitation (Figure , right side) is
+It follows that the first excited-state electron configuration ($$S_1$$) that will result from the excitation ([Figure 4](#fig:photoexcitelevels), right side) is
 
 $$S_1 \equiv n_1^2 n_2^2 n_3^2 n_4^2 n_5^2 n_6^2 n_7^1 n_8^1 \tag{3}$$
 
@@ -78,7 +78,7 @@ where $$\Delta E$$ is the energy gap between the HOMO and the LUMO. For an even 
 
 $$\Delta E = \frac{h^2}{8m_eL^2}\left(N + 1\right) \tag{5}$$
 
-The energy change of the electron cloud ((equation)[#eq:e3]) is exactly the energy of the photon of light that is absorbed. As a result, combining (equation 5)[#eq:e3] with $$E_{\rm photon} = hc/\lambda$$ provides us with an expression for the wavelength of light required to stimulate this excitation:
+The energy change of the electron cloud ([equation](#eq:e3)) is exactly the energy of the photon of light that is absorbed. As a result, combining [equation 5](#eq:e3) with $$E_{\rm photon} = hc/\lambda$$ provides us with an expression for the wavelength of light required to stimulate this excitation:
 
 <a name="eq:e4"></a>
 
