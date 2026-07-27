@@ -46,7 +46,7 @@ In this experiment you will use volumetric pipettes, analytical balances, and bu
 
 [^2]: Putting a sheet of white paper under the flask will help you better observe the endpoint.
 
-- Repeat the titration until you obtain at least two consistent values of $${\rm KMnO_4}$$ molarity. Using your titration results, calculate the concentration of the $${\rm KMnO_4}$$ in $${\rm mol L^{−1}}$$ for each consistent trial and report them to your instructor before moving on (you will need the standardized $${\rm KMnO_4}$$ concentration from the combined data of your lab section to complete your analysis!).
+- Repeat the titration until you obtain at least two consistent values of $${\rm KMnO_4}$$ molarity. Using your titration results, calculate the concentration of the $${\rm KMnO_4}$$ in $${\rm mol \, L^{−1}}$$ for each consistent trial and report them to your instructor before moving on (you will need the standardized $${\rm KMnO_4}$$ concentration from the combined data of your lab section to complete your analysis!).
 
 ### Titrating commercial peroxide solution 
 
