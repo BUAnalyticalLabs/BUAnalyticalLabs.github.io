@@ -6,7 +6,7 @@ The ability to perform quantitative experimentation in the chemistry laboratory 
 
 Mass, while useful for indicating the total amount of matter present, cannot by itself be used as a measure of the number of atoms or molecules. Rather, we use the molar mass (mass of exactly one mole of a substance) to determine the number of items. A 'mole' is similar to a dozen. Both are grouping of items that can be used conveniently to avoid counting large numbers of items. A mole of items is equivalent to $$N_A$$ items, where $$N_A$$ is *Avogadro's constant* (or Avogadro's number).
 
-Unlike many of the constants that you've seen before, such as the speed of light or Planck's constant, Avogadro's number is not fundamental; rather, $$N_A$$ is a defined quantity based on the number of carbon-12 atoms in 12 g of $${\rm ^{12}C}$$. Specifically, 12 g of $${\rm ^{12}C}$$ is defined as containing exactly 1 mole of$${\rm ^{12}C}$$ atoms. The actual mass of a single carbon-12 atom is $$1.99265 \times 10^{-23}$$ g, which means that the number of atoms in a mole is 
+Unlike many of the constants that you've seen before, such as the speed of light or Planck's constant, Avogadro's number is not fundamental; rather, $$N_A$$ is a defined quantity based on the number of carbon-12 atoms in 12 g of $${\rm ^{12}C}$$. Specifically, 12 g of $${\rm ^{12}C}$$ is defined as containing exactly 1 mole of $${\rm ^{12}C}$$ atoms. The actual mass of a single carbon-12 atom is $$1.99265 \times 10^{-23}$$ g, which means that the number of atoms in a mole is 
 
 $$N_A = \frac{\rm 12\;g / mole}{\rm 1.99265\times 10^{-23}\;g} = 6.022 \times 10^{23} / {\rm mole}. \tag{1}$$
 
