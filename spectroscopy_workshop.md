@@ -86,6 +86,7 @@ $$\begin{split}
  \\
 2.303\log \frac{I_b}{I_0} &= -k^{\prime}bc
 \end{split}$$
+
 $$\tag{6}$$
 
 where $$I_b$$ is the light intensity that emerges from the sample (i.e., $$I_T$$) and $$k^{\prime}$$ is the constant of proportionality between the logarithm of the light intensity and the concentration of the solution. Substituting $$I_T$$ for $I_b$ into [equation 6](#eq:bld2a) and rearranging we get:
