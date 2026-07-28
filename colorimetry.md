@@ -14,9 +14,9 @@ Software like Excel makes this even easier by allowing us to add a "trendline" t
 
 <a name="fig:calibrationcurveSn"></a>
 
-![Absorbance at 625 nm against concentration (in mM) of $${\rm [Co(NH_3)_6^{3+}]}$$ complex ion.  The calibration curve shows a high degree of linearity in the range studied ($$R^2 > 0.9995$$).  The molar extinction coefficient for the $${\rm [Co(NH_3)_6^{3+}]}$$ complex ion is 1497 $${\rm L \cdot mol^{-1} cm^{-1}}$$.](imgs/colorimetry_calibrationcurve.svg)
+![Absorbance at 625 nm against concentration (in mM) of $${\rm [Co(NH_3)_6^{3+}]}$$ complex ion.  The calibration curve shows a high degree of linearity in the range studied ($$R^2 > 0.9995$$).  The molar extinction coefficient for the $${\rm [Co(NH_3)_6^{3+}]}$$ complex ion is $$1497 \, {\rm L \cdot mol^{-1} cm^{-1}}$$.](imgs/colorimetry_calibrationcurve.svg)
 
-**Figure 1** - Absorbance at 625 nm against concentration (in mM) of $${\rm [Co(NH_3)_6^{3+}]}$$ complex ion.  The calibration curve shows a high degree of linearity in the range studied ($$R^2 > 0.9995$$).  The molar extinction coefficient for the $${\rm [Co(NH_3)_6^{3+}]}$$ complex ion is 1497 $${\rm L \cdot mol^{-1} cm^{-1}}$$.
+**Figure 1** - Absorbance at 625 nm against concentration (in mM) of $${\rm [Co(NH_3)_6^{3+}]}$$ complex ion.  The calibration curve shows a high degree of linearity in the range studied ($$R^2 > 0.9995$$).  The molar extinction coefficient for the $${\rm [Co(NH_3)_6^{3+}]}$$ complex ion is $$1497 \, {\rm L \cdot mol^{-1} cm^{-1}}$$.
 
 Using the equation of the line of best fit it is now possible to calculate the concentration of an unknown solution from its measured absorbance. Consider the example in Figure : if we record an absorbance (at the appropriate wavelength, 625 nm in this example) of 0.601 for a solution of the same complex, then we can use the equation $$A = 1.4969 c - 0.0036$$ to determine the concentration. In this case, we calculate that the concentration of complex ion in the unknown solution is 0.403 mM or $$4.03 \times 10^{-4} \, {\rm M}$$. Beware: the data plotted in figure has concentrations in mM (not M or g/L). This choice was made so that the range of values on the $$x$$-axis would be moderate in size.
 
