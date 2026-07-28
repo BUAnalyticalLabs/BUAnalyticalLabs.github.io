@@ -20,7 +20,7 @@ Software like Excel makes this even easier by allowing us to add a "trendline" t
 
 Using the equation of the line of best fit it is now possible to calculate the concentration of an unknown solution from its measured absorbance. Consider the example in Figure : if we record an absorbance (at the appropriate wavelength, 625 nm in this example) of 0.601 for a solution of the same complex, then we can use the equation $$A = 1.4969 c - 0.0036$$ to determine the concentration. In this case, we calculate that the concentration of complex ion in the unknown solution is 0.403 mM or $$4.03 \times 10^{-4} \, {\rm M}$$. Beware: the data plotted in figure has concentrations in mM (not M or g/L). This choice was made so that the range of values on the $$x$$-axis would be moderate in size.
 
-Finally, we can also use the line of best fit to calculate the molar absorptivity of the species in question. Consider what the line of best fit represents: a linear relationship between the absorbance (on the $y$-axis) and the concentration of the solution (on the $x$-axis). Furthermore, we know from Beer's Law that the slope of a straight line of $A$ versus $c$ will be equal to "$\varepsilon b$". Therefore, if we know the pathlength, $b$, which for most cuvettes (sample cells) is 1 cm, then we can compute $\varepsilon$ directly from the slope of the line of best fit. In this case, the molar absorptivity of the complex is 1497 ${\rm L\cdot mol^{-1}cm^{-1}}$. Always report molar absorptivities in these units, regardless of the concentration units that are plotted on the curve.
+Finally, we can also use the line of best fit to calculate the molar absorptivity of the species in question. Consider what the line of best fit represents: a linear relationship between the absorbance (on the $$y$$-axis) and the concentration of the solution (on the $x$-axis). Furthermore, we know from Beer's Law that the slope of a straight line of $$A$$ versus $$c$$ will be equal to "$$\varepsilon b$$". Therefore, if we know the pathlength, $$b$$, which for most cuvettes (sample cells) is 1 cm, then we can compute $$\varepsilon$$ directly from the slope of the line of best fit. In this case, the molar absorptivity of the complex is $$1497 \, {\rm L\cdot mol^{-1}cm^{-1}}$$. Always report molar absorptivities in these units, regardless of the concentration units that are plotted on the curve.
 
 ### Colorimetry and colorimetric reagents 
 
@@ -61,7 +61,7 @@ In some fields, *method blanks* are prepared in the same manner as sample blanks
 ### Linear regression in Excel using LINEST 
 In Excel, the command for generating the method of least squares values is **=LINEST(y-values-array, x-values-array,1,1)**. This command will result in a two-by-five (two columns, five rows) or two-by-three table containing an output of slope ($$m$$), standard deviation of slope ($$s_m$$), $$R^2$$, $$y$$-intercept ($$b$$), standard deviation in $$y$$-intercept ($$s_b$$), and the standard deviation in $$y$$ ($$s_y$$).
 
-Start by preparing a table exactly like the one in [figure 5](#fig:excelLINEST) . Next, highlight the ten (or six) cells in between the letters and type the **=LINEST** command as described above. Do not hit enter. LINEST is an *array formula* and you must type ctrl+shift+enter (PC) or control+shift+enter (MAC)[^1] when you finish typing in the command to receive all the desired data. If not, only the first cell will be computed. At this point you now have all of the regression parameters (slope, intercept, $$R^2$$) with associated uncertainties. Using the computed slope and intercept, we can use the calibration curve to determine the $$x$$-value associated with an experimentally-determined $$y$$-value ($$x = (y-b)/m$$).
+Start by preparing a table exactly like the one in [figure 3](#fig:excelLINEST) . Next, highlight the ten (or six) cells in between the letters and type the **=LINEST** command as described above. Do not hit enter. LINEST is an *array formula* and you must type ctrl+shift+enter (PC) or control+shift+enter (MAC)[^1] when you finish typing in the command to receive all the desired data. If not, only the first cell will be computed. At this point you now have all of the regression parameters (slope, intercept, $$R^2$$) with associated uncertainties. Using the computed slope and intercept, we can use the calibration curve to determine the $$x$$-value associated with an experimentally-determined $$y$$-value ($$x = (y-b)/m$$).
 
 [^1]: In previous versions of Excel for MAC, the key sequence is command-shift-enter.
 
@@ -73,7 +73,7 @@ Start by preparing a table exactly like the one in [figure 5](#fig:excelLINEST) 
 
 In reality, we could have computed the slope and intercept in other -- arguably easier -- ways. For instance, the **=SLOPE(y-values-array, x-values-array)** command will return the slope of a line, the **=INTERCEPT(y-values-array, x-values-array)** command will return the slope of a line, and **=RSQ(y-values-array, x-values-array)** will return the coefficient of determination, $$R^2$$. Alternately, these values can be added to a plotted curve using the "trendline" feature.
 
-The reason we use LINEST is two-fold. First, LINEST can be used to quickly and easily compute the parameters of line without graphing. Second, one of the LINEST parameters -- $$s_y$$ -- is necessary for computing the uncertainty associated with a regressed $$x$ value. The uncertainty in the regressed $$x$$ value ($$s_x$$) is computed using the following equation:
+The reason we use LINEST is two-fold. First, LINEST can be used to quickly and easily compute the parameters of line without graphing. Second, one of the LINEST parameters -- $$s_y$$ -- is necessary for computing the uncertainty associated with a regressed $$x$$ value. The uncertainty in the regressed $$x$$ value ($$s_x$$) is computed using the following equation:
 
 $$s_x=\frac{s_y}{|m|}\sqrt{\frac{1}{k}+\frac{1}{N}+\frac{\left(y-\bar{y}\right)^2}{m^2\sum_i\left(x_i-\bar{x}\right)^2}} \tag{3}$$
 
@@ -119,7 +119,7 @@ For the pipetting in this lab: use volumetric pipettes when possible. Otherwise,
 
 - Collect a vitamin tablet and *record its mass* using an analytical balance. Each partner will need their own tablet. Record the manufacturer's estimated weight of the tablet and iron content. *Note:* any time you are analyzing a commercial product, it is important to (a) take precise measurements of the whole product, (b) to record all of the information provided by the manufacturer, and (c) never fully trust the values that these companies report, especially if the purpose of your work is to measure that value and assess their claims.
 
-- Add the tablet to a clean 125 mL Erlenmeyer flask and add 25 mL of 6 M $${\rm HCl} (aq)$$. In a fume hood, boil the solution gently on a hotplate for 15 minutes or until the tablet dissolves completely. If you are sharing a hotplate, make sure to label your flask so as to be able to identify it later. Keep the flask covered with a watch glass to prevent it from boiling dry. There may be a small amount of insoluble binding material left undissolved -- that is ok.
+- Add the tablet to a clean 125 mL Erlenmeyer flask and add 25 mL of 6 M HCl. In a fume hood, boil the solution gently on a hotplate for 15 minutes or until the tablet dissolves completely. If you are sharing a hotplate, make sure to label your flask so as to be able to identify it later. Keep the flask covered with a watch glass to prevent it from boiling dry. There may be a small amount of insoluble binding material left undissolved -- that is ok.
 
 - Make sure to diagram in your notebook how you are working with the unknown. Things will get convoluted and difficult to keep track of in your head.
 
@@ -155,7 +155,7 @@ For the pipetting in this lab: use volumetric pipettes when possible. Otherwise,
 
 ### Preparing the digested vitamin solution for spectrophotometry 
 
-- In the same manner as in Part 2, determine how much sodium citrate solution is required to bring 10.00 mL of the unknown iron solution (the most dilute solution from Part 1) to pH 3.5. It will likely require more citrate since it still contains some of the $${\rm HCl} (aq)$$ from digesting the tablet! Dispose of this solution.
+- In the same manner as in Part 2, determine how much sodium citrate solution is required to bring 10.00 mL of the unknown iron solution (the most dilute solution from Part 1) to pH 3.5. It will likely require more citrate since it still contains some of the HCl from digesting the tablet! Dispose of this solution.
 
 - Pipette a fresh 10.00 mL aliquot of the unknown solution into a 100 mL volumetric flask, add the required amount of sodium citrate solution from the previous step, 2.00 mL of hydroquinone solution, and 3.00 mL of *o*-phenanthroline solution to the solution. Dilute to the mark and mix well. Make sure to continue adding steps to the diagram that you started in your notebook.
 
@@ -185,7 +185,7 @@ For the pipetting in this lab: use volumetric pipettes when possible. Otherwise,
 
 ## Safety and Waste Disposal 
 
-Concentrated (6 M $${\rm HCl} (aq)$$) is an irritant and corrosive. Clean up any spills immediately. Any large (>3-5mL) spills should be neutralized with sodium bicarbonate prior to being cleaned up. If any acid contacts skin, run exposed skin under cold water for several minutes. In any of the above cases, alert the lab instructor immediately. Replace exposed gloves immediately.
+Concentrated (6 M HCl) is an irritant and corrosive. Clean up any spills immediately. Any large (>3-5mL) spills should be neutralized with sodium bicarbonate prior to being cleaned up. If any acid contacts skin, run exposed skin under cold water for several minutes. In any of the above cases, alert the lab instructor immediately. Replace exposed gloves immediately.
 
 All solutions must be disposed of in the large waste container.
 
