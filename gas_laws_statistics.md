@@ -14,7 +14,7 @@ In order to measure the number of moles of generated, and hence the number of mo
 
 $$PV = nRT \tag{2}$$
 
-where $$P$$ is the pressure of the gas (in atm), $$V$$ is the volume of the gas (in L), $$R$$ is the molar gas constant ($$0.08206 \, {\rm L \cdot atm \cdot mol^{-1} \cdot K^{-1}}$$), $$T$$ is temperature of the gas (in K), and $n$$ is the number of moles of the gas. It is clear that in order to compute the moles of gas released, we will first need to know the pressure, temperature, and volume of the gas.
+where $$P$$ is the pressure of the gas (in atm), $$V$$ is the volume of the gas (in L), $$R$$ is the molar gas constant ($$0.08206 \, {\rm L \cdot atm \cdot mol^{-1} \cdot K^{-1}}$$), $$T$$ is temperature of the gas (in K), and $$n$$ is the number of moles of the gas. It is clear that in order to compute the moles of gas released, we will first need to know the pressure, temperature, and volume of the gas.
 
 The temperature is the easiest of these values to determine. As long as the apparatus used is allowed to return to room temperature after the reaction, the temperature of the gas is simply the ambient temperature in the lab or the temperature of the water that is collected.
 
