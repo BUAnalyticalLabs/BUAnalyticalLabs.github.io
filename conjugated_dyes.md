@@ -1,7 +1,5 @@
 # Modeling Conjugated Dyes with the Multielectron Particle-in-a-Box
 
-[(Back to home page)](index)
-
 ## Introduction 
 
 In this experiment you will study the absorption spectra of a related series of dyes by UV/Vis spectrophotometry. The wavelengths of light absorbed will allow us to learn about the electronic structure of these molecules. Consider the structure of the dye 1,1'-diethyl-4,4'-dicarbocyanine iodide [Figure 1](#fig:cyanine):

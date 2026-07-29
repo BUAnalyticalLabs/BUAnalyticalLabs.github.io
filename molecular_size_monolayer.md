@@ -1,7 +1,5 @@
 # Molecular Size Determination
 
-[(Back to home page)](index)
-
 ## Introduction 
 
 The ability to perform quantitative experimentation in the chemistry laboratory is dependent on our ability to accurately *count* the molecules involved in a given chemical system or reaction. For instance, one liter of an ideal gas at room temperature will be composed of approximately  gas molecules. The need to count large numbers of molecules (on the order of $10^{23}$) in order to perform quantitative experiments would be very cumbersome.

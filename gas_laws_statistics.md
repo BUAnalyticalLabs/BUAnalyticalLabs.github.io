@@ -1,7 +1,5 @@
 # Stoichiometry of the Reaction of Magnesium with Strong Acid
 
-[(Back to home page)](index)
-
 ## Introduction 
 
 Along with color change and precipitate formation and dissolving, gas evolution is one of the most common indicators of chemical reaction. In this experiment we will investigate the reaction of a metal with a strong acid, such as HCl. In these reactions, when the standard reduction potential of the metal is less than zero, the products of this reaction are a cation of the metal and hydrogen gas:

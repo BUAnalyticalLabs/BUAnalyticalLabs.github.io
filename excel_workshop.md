@@ -1,7 +1,5 @@
 # Tools of the Trade: Spreadsheets and Typesetting
 
-[(Back to home page)](index)
-
 * TOC
 {:toc}
 
