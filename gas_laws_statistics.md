@@ -42,7 +42,7 @@ $$G_{\rm calc} = \frac{\vert x^{\prime}-\bar{x} \vert}{s} \tag{4}$$
 
 where $$s$$ is the standard deviation of the data set, $$x^{\prime}$$ is the most outlying data point, and $$\bar{x}$$ is the mean of the data set.
 
-If the calculated Grubbs statistic, $$G_{\rm calc}$$, is smaller than the Grubbs statistic from the table (Table [\[tab:QGt\]](#tab:QGt){reference-type="ref" reference="tab:QGt"} in appendix B), $$G_{\rm table}$$, then the point must be retained. If, however, $$G_{\rm calc}$$ is greater than $$G_{\rm table}$$, then the point is discarded and the mean and standard deviations are recomputed.
+If the calculated Grubbs statistic, $$G_{\rm calc}$$, is smaller than the critical value of the Grubbs statistic ([see the table linked here](tables#statstGQ)), $$G_{\rm table}$$, then the point must be retained. If, however, $$G_{\rm calc}$$ is greater than $$G_{\rm table}$$, then the point is discarded and the mean and standard deviations are recomputed.
 
 ---
 
