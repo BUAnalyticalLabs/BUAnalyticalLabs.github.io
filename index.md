@@ -2,15 +2,11 @@
 
 ## Policies and Resources
 
-[Professional Standards in Chemistry Labs](safety_professional_standards)
-
-[Laboratory Research Notebooks](lab_notebooks)
-
-[Fundamentals of Laboratory Equipment](lab_equipment)
-
-[Post-lab Assignments](post_lab_assignments)
-
-[Tables and Values](tables)
+- [Professional Standards in Chemistry Labs](safety_professional_standards)
+- [Laboratory Research Notebooks](lab_notebooks)
+- [Fundamentals of Laboratory Equipment](lab_equipment)
+- [Post-lab Assignments](post_lab_assignments)
+- [Tables and Values](tables)
 
 ## Experiments by Class
 
