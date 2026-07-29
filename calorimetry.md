@@ -187,8 +187,8 @@ Sodium hydroxide pellets are hydroscopic (will absorb water out of the air or yo
 
 All waste solutions can go in the aqueous waste container.
 
-## Lab Worksheet:
+## Lab Worksheet
 
-Link to lab worksheet to be added later!
+[Click here for the lab worksheet PDF.](pdfs/Worksheet%20-%20Enthalpy%20of%20Reaction%20and%20Hess's%20Law%20260729.pdf) You do **not** have to print a copy for the lab!
 
 ## Footnotes

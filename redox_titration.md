@@ -75,6 +75,6 @@ All waste solutions, and first rinses, should be disposed of in the large hazard
 
 ## Lab Worksheet
 
-Link to lab worksheet to be added later.
+[Click here for the lab worksheet PDF.](pdfs/Worksheet%20-%20Redox%20Titration%20of%20Hydrogen%20Peroxide%20260729.pdf) You do **not** have to print a copy for the lab!
 
 ## Footnotes

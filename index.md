@@ -16,6 +16,7 @@
 
 ### CH109 Advanced General Chemistry with Quantitative Analysis Lab 1
 
+0. [Orientation - Gradescope Practice and Measurements Workshop](pdfs/Worksheet%20-%20Gradescope%20Practice%20and%20Measurement%20260729.pdf)
 1. [Tools of the Trade: Spreadsheets and Typesetting](excel_workshop)
 2. [Molecular Size Determination](molecular_size_monolayer)
 3. [Redox Titration of Hydrogen Peroxide](redox_titration)
@@ -40,6 +41,7 @@
 
 ### CH201 Quantitative Analytical Chemistry Laboratory
 
+0. [Orientation - Gradescope Practice]()
 1. [Tools of the Trade: Spreadsheets and Typesetting](excel_workshop)
 2. [Molecular Size Determination](molecular_size_monolayer)
 3. [Gravimetry Determination of Calcium]()

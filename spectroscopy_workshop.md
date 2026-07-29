@@ -144,6 +144,6 @@ So the question now becomes: if uncomplexed ions do not absorb visible light, wh
 
 ## Lab Worksheet
 
-Link to lab worksheet coming later!
+[Click here for the lab worksheet PDF.](pdfs/Worksheet%20-%20Introduction%20to%20Molecular%20Spectroscopy%20260729.pdf) You do **not** have to print a copy for the lab!
 
 ## Footnotes
