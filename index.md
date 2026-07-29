@@ -6,7 +6,7 @@
 
 [Laboratory Research Notebooks](lab_notebooks)
 
-[Fundamentals of Laboratory Equipment](labequipment)
+[Fundamentals of Laboratory Equipment](lab_equipment)
 
 [Post-lab Assignments](post_lab_assignments)
 
