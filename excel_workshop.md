@@ -2,7 +2,8 @@
 
 [(Back to home page)](index)
 
-* TOC {:toc}
+* TOC
+{:toc}
 
 ## Introduction 
 
