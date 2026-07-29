@@ -1,5 +1,7 @@
 # Introdution to Molecular Spectroscopy
 
+[(Back to home page)](index)
+
 Spectroscopic methods are some of the most robust and ubiquitous in the scientific disciplines. Chemists, biologists, health professionals, neuroscientists, geologists, and more, all use spectroscopic techniques to study the systems that interest them. As a result, it is critical that you develop a thorough background in the fundamentals of spectroscopy and spectrophotometers as you move forward with your careers in the sciences. The goal of this guided workshop is to give you skills and experience working with spectroscopy to study molecular problems, and to help you to understand the nature of light/matter interactions in molecules. Work with your lab partner and your teaching assistants towards reaching these goals.
 
 The workshop is comprised of two components: a pre-lab assignment based on the introductory material and a step-by-step workshop through three spectroscopy applications. The pre-lab assignment is due before arriving in lab. The remainder of the workshop is done in groups in the lab, with your lab instructor as a resource to help you in improving your understanding. The in-lab worksheet will be due before you leave the lab. Note: you do not need to prepare a lab notebook for this workshop; rather, you should work directly from the workshop and answer in the spaces provided.

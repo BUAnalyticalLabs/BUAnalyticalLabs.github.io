@@ -1,5 +1,7 @@
 # Laboratory Research Notebooks
 
+[(Back to home page)](index)
+
 Proper academic and industrial lab practices require that all work in labs be done directly from a lab research notebook. These documents, while not published like journal articles, are the backbone of scientific inquiry and discovery, and they must contain the complete and unaltered record of the work that is done in the lab. A lab research notebook will contain the complete record of the experiments that were performed, including the procedures, reagents, and data. These records are then used to pass on information to the next researchers on a project, serve as legal documentation for proving intellectual property (when applying for patents), eliminate concerns over potential fraud, and are a legacy for the research group.
 
 Long after a particular researcher has moved on from the research group, the lab notebook will remain as a crucial reference source for future work. While it is doubtful that the work done in undergraduate lab courses will be needed for future reference, the skills of keeping these notebooks will be useful as you venture forth into research positions, including undergraduate research. As such, it is crucial that you begin to develop proper habits for documenting your work in lab research notebooks.

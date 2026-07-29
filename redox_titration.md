@@ -1,5 +1,7 @@
 # Redox Titration of Hydrogen Peroxide
 
+[(Back to home page)](index)
+
 ## Introduction 
 
 Titrations are some of the most accurate, and most useful, analytical techniques. In this lab you will determine the precise concentration of a store-bought hydrogen peroxide solution via titration. Hydrogen peroxide $${\rm H_2 O_2}$$ is a common household chemical that is useful as an antiseptic and is generally sold as a dilute aqueous solution. Concentrated solutions of hydrogen peroxide are extremely caustic and too hazardous to be available to the general public. One property of hydrogen peroxide is that it is somewhat unstable, decomposing over time to water and . This lab illustrates how one could test the quality of the commercially available product using a redox titration.

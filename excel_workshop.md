@@ -1,5 +1,7 @@
 # Tools of the Trade: Spreadsheets and Typesetting
 
+[(Back to home page)](index)
+
 ## Introduction 
 
 One major objective of a laboratory science class is to expose students to the process and tools of scientific research. While public perception of science emphasizes exciting results and conclusions, in practice scientific research is heavily front-loaded (e.g., reading literature and building a foundation, developing research projects, and designing/planning experiments) and heavily followed-up (e.g., analyzing data, determining statistical significance, presenting and defending results, writing scientific papers, and undergoing peer review). In fact, results alone are almost meaningless in the absence of thorough planning, processing, and analysis.

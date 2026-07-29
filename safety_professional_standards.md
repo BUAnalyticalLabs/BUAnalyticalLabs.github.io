@@ -1,4 +1,6 @@
-# Professional Standards in Chemistry Labs 
+# Professional Standards in Chemistry Labs
+
+[(Back to home page)](index)
 
 Part of your education in chemistry, and chemistry lab, involves learning about and abiding by the *Professional Standards* that support a positive work environment for everyone and are imperative for the proper function of a research or academic lab.
 

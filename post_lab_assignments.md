@@ -1,4 +1,6 @@
-# Post-lab Assignments 
+# Post-lab Assignments
+
+[(Back to home page)](index)
 
 After completing an experiment, you will be expected to complete and submit a post-lab assignment. These assignments will typically be comprised of your data analysis and a series of conceptual questions related to the lab. The details about each experiment's post-lab assignment are found after the procedure.
 

@@ -1,5 +1,9 @@
 # Enthalpy of Reaction and Hess's Law
 
+[(Back to home page)](index)
+
+* TOC {:toc}
+
 ## Introduction 
 
 The goal of this experiment is to investigate applications of the First Law of Thermodynamics, which states that the energy of a system is fixed and independent of the method of preparing the system or attaining the energy. Chemical reactions and changes of state involve a change in internal energy ($$\Delta  U$$). The amount of this energy change depends on the amount of materials present, and on the energy difference between the initial and final states (starting materials and products) of the reaction, but not the path through which the changes takes place. For a process, the change in internal energy is
