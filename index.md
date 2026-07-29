@@ -10,6 +10,7 @@
 - [Fundamentals of Laboratory Equipment](lab_equipment)
 - [Post-lab Assignments](post_lab_assignments)
 - [Tables and Values](tables)
+- [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf)
 
 ## Experiments by Class
 
