@@ -113,7 +113,7 @@ Finally, because solution A is made with all of the unknown sample, we conclude 
 
 You will work with a partner in this experiment. This experiment involves preparing many solutions and dilutions, which means that it has the potential to be lengthy. Both members of the team should contribute equally and work efficiently in order to finish with sufficient time to check the spectral data. All analysis and post-lab work must be done individually. Make sure to bring a laptop for working up your data in lab and a USB flash drive (some drives are available in lab) for transferring the raw data files from the UV/Vis instrument.
 
-For the pipetting in this lab: use volumetric pipettes when possible. Otherwise, use graduate pipettes. Never use graduated cylinders, volumetric flasks, beakers, etc., for precise delivery of solutions. *Why?* Review the proper use of [volumetric flasks here](labequipment#volumetric-flasks).
+For the pipetting in this lab: use volumetric pipettes when possible. Otherwise, use graduate pipettes. Never use graduated cylinders, volumetric flasks, beakers, etc., for precise delivery of solutions. *Why?* Review the proper use of [volumetric flasks here](lab_equipment#volumetric-flasks).
 
 ### Digesting the vitamin tablet 
 
@@ -131,7 +131,7 @@ For the pipetting in this lab: use volumetric pipettes when possible. Otherwise,
 
 - Transfer your filtrate to a 100 mL volumetric flask. Wash the beaker with multiple **small** portions of deionized water into the volumetric flask to ensure quantitative transfer of the dissolved iron.
 
-- When completely cool, dilute the solution to the 100-mL mark and mix well. Make sure to follow the instructions in [on this page](labequipment#volumetric-flasks) for proper use of volumetric flasks.
+- When completely cool, dilute the solution to the 100-mL mark and mix well. Make sure to follow the instructions in [on this page](lab_equipment#volumetric-flasks) for proper use of volumetric flasks.
 
 - Using a volumetric pipette, transfer 10.00 mL of the solution from the previous step into a fresh 100 mL volumetric flask. Dilute to the mark with deionized water and mix well. *Why are you diluting this solution again? What would happen if your unknown were too concentrated when you went to record your data?*
 
@@ -143,7 +143,7 @@ For the pipetting in this lab: use volumetric pipettes when possible. Otherwise,
 
 - Obtain 40 mL of the prepared iron stock solution (this solution will have a concentration of approximately $$0.04\,{\rm mg}$$ Fe per mL; record the exact concentration that is provided and use that concentration in your calculations). Pipette 10.00 mL into a beaker and record the pH using pH paper. Add sodium citrate solution dropwise until the pH is about 3.5. Count the number of drops required. Dispose of this solution.
 
-- Pipette a fresh 10.00 mL aliquot of the iron solution into a 100 mL volumetric flask and add the number of drops of sodium citrate solution determined in the previous step. Also add 2.00 mL of hydroquinone solution and 3.00 mL of *o*-phenanthroline solution. Dilute this solution to the 100 mL mark and mix well. Make sure to follow the instructions [on this page](labequipment#volumetric-flasks) for proper use of volumetric flasks.
+- Pipette a fresh 10.00 mL aliquot of the iron solution into a 100 mL volumetric flask and add the number of drops of sodium citrate solution determined in the previous step. Also add 2.00 mL of hydroquinone solution and 3.00 mL of *o*-phenanthroline solution. Dilute this solution to the 100 mL mark and mix well. Make sure to follow the instructions [on this page](lab_equipment#volumetric-flasks) for proper use of volumetric flasks.
 
 - As you will have a limited supply of 100 mL volumetric flasks, transfer each solution as it is made to a plastic bottle. Make sure to wash out each bottle with deionized water and then a small amount of your solution to ensure no contamination[^2].
 
@@ -167,7 +167,7 @@ For the pipetting in this lab: use volumetric pipettes when possible. Otherwise,
 
 [^3]: If using a quartz cuvette and for better analytical precision, use the same cuvette for all measurements. Use a marker to mark the cuvette on one side to indicate the orientation that your cuvette was inserted into the spectrophotometer. Always use the same cuvette, in the same orientation, for subsequent measurements. Ask your TF for guidance on cleaning the cuvette between solutions and for carefully transferring solutions in the spectrophotometer room.
 
-- Once all of the solutions are ready, you may begin data acquisition. Make sure to follow the provided directions for setting appropriate instrument parameters. Specifically, make sure that the data sampling interval is sufficiently small to get good resolution (definitely less than $$0.5$$ nm) and that the baseline is set through a zero and a blank. [This page](labequipment#cary-60-uv-visible-spectrophotometer) describes the proper use of the UV/Vis spectrophotometers.
+- Once all of the solutions are ready, you may begin data acquisition. Make sure to follow the provided directions for setting appropriate instrument parameters. Specifically, make sure that the data sampling interval is sufficiently small to get good resolution (definitely less than $$0.5$$ nm) and that the baseline is set through a zero and a blank. [This page](lab_equipment#cary-60-uv-visible-spectrophotometer) describes the proper use of the UV/Vis spectrophotometers.
 
 - *Notebook tip: note the make/model of the instrument, and the instrument settings, in your lab notebook.* It can be helpful to name the spectra on the computer using the same labels/identifiers that you used in preparing your sketches for the dilutions.
 

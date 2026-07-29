@@ -138,7 +138,7 @@ More likely, however, is that most experiments will have much larger overall unc
 
 ## Procedure 
 
-For this lab you will work in pairs -- both partners must operate the micropipette and the analytical balance. Review the proper use of [micropipettes](labequipment#micropipettes) and [analytical balances](labequipment#mass-measurements-with-analytical-balances) on the linked pages.
+For this lab you will work in pairs -- both partners must operate the micropipette and the analytical balance. Review the proper use of [micropipettes](lab_equipment#micropipettes) and [analytical balances](lab_equipment#mass-measurements-with-analytical-balances) on the linked pages.
 
 ### Working with your lab research notebook 
 
@@ -192,7 +192,7 @@ A sample of stearic acid dissolved in hexanes ($$\sim 0.140 \, {\rm g/L}$$) will
 
 Hexanes has a significant level of neurotoxicity; care should be given when handling and disposing. Permanganate is a strong oxidizing agent and will stain clothing and skin.
 
-Any remaining hexanes must be disposed of in the specially marked waste container located in the fume hood. Dispose of all water that has been contaminated with hexane into the same waste container as was designated for hexane waste. First, small rinses are hazardous waste; all water used to wash and rinse glassware, after the first rinse, may be poured down the drain. Review the linked page regarding the p[roper washing and rinsing of glassware](labequipment#washing-and-rinsing-equipment).
+Any remaining hexanes must be disposed of in the specially marked waste container located in the fume hood. Dispose of all water that has been contaminated with hexane into the same waste container as was designated for hexane waste. First, small rinses are hazardous waste; all water used to wash and rinse glassware, after the first rinse, may be poured down the drain. Review the linked page regarding the p[roper washing and rinsing of glassware](lab_equipment#washing-and-rinsing-equipment).
 
 *Notebook tip: safety and waste instructions must be included* **inside the procedure at appropriate places**. For instance: in the part of the procedure where hexanes is being used for the first time it would be appropriate to include a warning box about the dangers associated with using hexanes and about how to dispose of it.  Similarly, a warning about what to do with the waste after each part is appropriate. It is **inappropriate** to leave the safety and waste instructions for the end of the procedure.
 
