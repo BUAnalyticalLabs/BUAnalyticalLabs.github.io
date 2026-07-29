@@ -1,5 +1,8 @@
 # Boston University Department of Chemistry Analytical Labs
 
+* TOC
+{:toc}
+
 ## Policies and Resources
 
 - [Professional Standards in Chemistry Labs](safety_professional_standards)

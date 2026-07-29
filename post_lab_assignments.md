@@ -1,5 +1,8 @@
 # Post-lab Assignments
 
+* TOC
+{:toc}
+
 After completing an experiment, you will be expected to complete and submit a post-lab assignment. These assignments will typically be comprised of your data analysis and a series of conceptual questions related to the lab. The details about each experiment's post-lab assignment are found after the procedure.
 
 The post-lab assignment that you submit must constitute your own intellectual property and effort. In other words: they are individual work only. That said, you are highly encouraged to discuss your work with your peers, get support and guidance from your instructors, and work in groups as you complete these assignments. Detailed guidelines concerning group work are provided in the previous part of the lab manual under *Professional Standards in Chemistry Labs*.

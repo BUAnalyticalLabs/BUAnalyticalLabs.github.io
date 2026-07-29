@@ -1,6 +1,7 @@
 # Enthalpy of Reaction and Hess's Law
 
-* TOC {:toc}
+* TOC
+{:toc}
 
 ## Introduction 
 

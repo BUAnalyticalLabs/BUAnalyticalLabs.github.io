@@ -1,5 +1,8 @@
 # Professional Standards in Chemistry Labs
 
+* TOC
+{:toc}
+
 Part of your education in chemistry, and chemistry lab, involves learning about and abiding by the *Professional Standards* that support a positive work environment for everyone and are imperative for the proper function of a research or academic lab.
 
 In general, the practices included under the umbrella of professional standards include:

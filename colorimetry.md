@@ -1,5 +1,8 @@
 # Colorimetric Determination of Iron Content
 
+* TOC
+{:toc}
+
 ## Introduction 
 
 In a [previous experiment](./spectroscopy_workshop) we learned the principles of UV/Vis Spectrophotometry and all about how solutions absorb light. In this experiment we will use UV/Vis spectrophotometry to quantify the amount of light-absorbing species in the sample.

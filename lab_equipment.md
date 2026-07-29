@@ -1,5 +1,8 @@
 # Fundamentals of Laboratory Equipment
 
+* TOC
+{:toc}
+
 In general, the laboratory equipment that you will use will range from the simplest of tools (personal protective equipment, notebooks, glassware) to major instrumentation (spectrophotometers, pH meters). On their surface, these tools can sometimes appear deceivingly trivial to use, often only requiring minimal training or guidance to achieve a measurement. In truth, however, the proper use of these tools can be elusive at first. Moreover, using them improperly will certainly lead to erroneous results and, possibly, dangerous outcomes.
 
 Expert baseball players equip themselves with cleats and helmets, and they spend years learning the best practices and techniques for weilding a bat and a glove. While it is true that a novice can pick up a glove and a ball and start to play, it is highly doubtful that they will immediately achieve expert-like mastery of the sport. Learning good laboratory skills strongly resembles the task of mastering a sport or a musical instrument: a combination of training and practice. While natural skill is certainly desirable, novices become experts by learning from talented mentors (in your case the lab instructors) and practicing with care and attention.
