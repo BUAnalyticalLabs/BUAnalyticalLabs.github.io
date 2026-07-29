@@ -50,7 +50,7 @@ Conversely, the following equipment should never be used for quantitative purpos
 
 ![Illustration of the proper way to read the meniscus in volumetric measurements. The reading here would be 3.49 -- the final decimal place is estimated.](imgs/equipment_meniscus.jpg)
 
-** Figure 1 ** - Illustration of the proper way to read the meniscus in volumetric measurements. The reading here would be 3.49 -- the final decimal place is estimated.
+**Figure 1** - Illustration of the proper way to read the meniscus in volumetric measurements. The reading here would be 3.49 -- the final decimal place is estimated.
 
 The calibration of a piece of glassware is irrelevant if the volume is not accurately read. This task is simple in plastic equipment: when the piece is held upright and level, the liquid surface will be flat and the level will be easy to read. Conversely, in a piece of glassware the surface of the liquid will adhere to the sides of the flask and form a curve, or meniscus. For almost all liquids, the meniscus is concave (downward curve) and the very bottom of the meniscus is read to determine the volume accurately ([Figure 1](#fig:meniscus)). On rare occasions, such as for mercury, the surface will curve upward (convex), and in this case the top of the meniscus is read to determine the volume.
 
@@ -276,7 +276,7 @@ To prepare a solution in a volumetric flask:
 
 It is frequently the case that you will need to prepare a series of *subsequent dilutions* -- a solution that is diluted several times using different volumes of solution transfered and diluted volumes. Sometimes this is done in order to sufficiently dilute an initial solution of known concentration. In other cases, the goal is to learn about the original solution by measuring some quantity about the final solution. In either case, the various volumes of pipettes and volumetric flasks can make these calculations tricky to visualize and perform. One of the more powerful approaches to these calculations involves first sketching a diagram for the subsequent dilutions and then working backwards on the dilutions.
 
-Consider the following example: a sample with an unknown number of moles is transfered to a 100 mL volumetric flask and diluted (solution A). A 5 mL sample of solution A is then transfered to a second 100 mL volumetric flask and diluted (solution B). A 25 mL sample of solution B is then transfered to a 500 mL volumetric flask and diluted (solution C). The concentration of solution C is found to be 3 mM. This process is diagramed in [figure 4](#fig:dilutionsfig).
+Consider the following example: a sample with an unknown number of moles is transfered to a 100 mL volumetric flask and diluted (solution A). A 5 mL sample of solution A is then transfered to a second 100 mL volumetric flask and diluted (solution B). A 25 mL sample of solution B is then transfered to a 500 mL volumetric flask and diluted (solution C). The concentration of solution C is found to be 3 mM. This process is diagramed in [Figure 6](#fig:dilutionsfig).
 
 <a name="fig:dilutionsfig"></a>
 
@@ -286,15 +286,15 @@ Consider the following example: a sample with an unknown number of moles is tran
 
 To determine the number of moles in the unknown sample, we start by determining the number of moles of solute in solution C:
 
-$$n_{\rm C} = [{\rm C}]\times V_{\rm C} = \left(3 \, \frac{\rm mmol}{\rm L}\right) \left({\rm 0.5\,L}\right) = 1.5\, {\rm mmol} \tag{4}$$
+$$n_{\rm C} = [{\rm C}]\times V_{\rm C} = \left(3 \, \frac{\rm mmol}{\rm L}\right) \left({\rm 0.5\,L}\right) = 1.5\, {\rm mmol} \tag{2}$$
 
 We know that the 1.5 mmol of solute in solution C is the result of having transfered 25 mL of solution B. In other words, the 25 mL sample of B contains 1.5 mmol. We can therefore conclude that the entirety of solution B (before removing the 25 mL sample) must have contained 6 mmol:
 
-$$n_{\rm B} = n_{\rm C}\times\frac{V_{\rm B,total}}{V_{\rm B,transfered}} = \left({\rm 1.5\,mmol}\right) \left(\frac{100 \, {\rm mL}}{25 \, {\rm mL}} \right) = 6\, {\rm mmol} \tag{5}$$
+$$n_{\rm B} = n_{\rm C}\times\frac{V_{\rm B,total}}{V_{\rm B,transfered}} = \left({\rm 1.5\,mmol}\right) \left(\frac{100 \, {\rm mL}}{25 \, {\rm mL}} \right) = 6\, {\rm mmol} \tag{3}$$
 
 The same process will get us the number of moles of solute in A:
 
-$$n_{\rm A} = \left({\rm 6\,mmol}\right) \left(\frac{100 \, {\rm mL}}{5 \, {\rm mL}} \right) = 120\, {\rm mmol} = 0.120\,{\rm mol} \tag{6}$$
+$$n_{\rm A} = \left({\rm 6\,mmol}\right) \left(\frac{100 \, {\rm mL}}{5 \, {\rm mL}} \right) = 120\, {\rm mmol} = 0.120\,{\rm mol} \tag{4}$$
 
 Finally, because solution A is made with all of the unknown sample, we conclude that the sample must have contained 0.120 moles of solute. Note: the significant figures for the dilution calculations are determined by the precision of the glassware. The final answer has three significant figures because a 5-mL pipette has three significant figures (5.00 mL). If we desire to know the concentrations of solutions A and B, we can divide the moles of solute in each by their volumes. That would make the concentrations solutions A and B, 0.06 M and 1.20 M, respectively.
 
@@ -302,7 +302,7 @@ Finally, because solution A is made with all of the unknown sample, we conclude 
 
 Volumetric pipettes are the most appropriate piece for glassware for delivering a fixed volume of liquid or solution. When the volume of solution that is needed is not known, or is likely to change, burettes are used to transfer the solution. Burettes are long, narrow cylinders that allow the user the flexibility to deliver variable volumes of solution, multiple increments of solution in rapid succession, and easy control over the rate at which solution is delivered. Consequently, burettes are the tool of choice for titrations.
 
-A 50-mL burette has large, numbered graduations at 1-mL increments, but they also have smaller graduations at the 0.1-mL intervals. As a result, volumes measured on burettes should be read to two decimal places: the first decimal place is the 0.1-mL graduation and the second is an estimate of how far between the graduations the meniscus is located (at the line, 0; almost half-way, 3; half-way, 5; or almost to the next line, 7). See section A.2.
+A 50-mL burette has large, numbered graduations at 1-mL increments, but they also have smaller graduations at the 0.1-mL intervals. As a result, volumes measured on burettes should be read to two decimal places: the first decimal place is the 0.1-mL graduation and the second is an estimate of how far between the graduations the meniscus is located (at the line, 0; almost half-way, 3; half-way, 5; or almost to the next line, 7). See [Reading volume measurements on glassware](#reading-volume-measurements-on-glassware) above.
 
 The largest downside to using burettes is that each time a volume is delivered, two measurements (with associated error, $$\pm 0.03 \, {\rm mL}$$ for a 50-mL burette) are required. While this does increase the possibility for adding unwanted experiment error, or mistakes, burettes remain one of the most useful and reliable pieces of glassware for volumetric transfer.
 
@@ -440,7 +440,7 @@ There are two very useful modes that the Spectronic 200 offers for quick measure
 
 1.  Use the up and down arrow keys to select *Measurement Mode* and then the right and left arrow keys to toggle between %T or Abs. Select *Measurement $$\lambda$$* and use the left and right arrow keys or the $$\lambda$$ knob to set your desired measurement wavelength ([Figure 10](#fig:spec200_2), left).
 
-2.  Use the arrow keys to select *GO*, then press ENTER to start the Live Display mode (Figure , right).
+2.  Use the arrow keys to select *GO*, then press ENTER to start the Live Display mode ([Figure 10](#fig:spec200_2), right).
 
 3.  Place a blank solution cuvette in the sample holder and press the 0.00 button to blank the device.
 
@@ -488,13 +488,17 @@ The Cary 60 UV-Vis Spectrophotometer is a research-grade instrument with enough 
 
 3.  One of the 'selling points' of the Cary 60 is the speed of the instrument. The way that this is accomplished is by setting the default scan to record every 5 nm -- much too infrequent to be useful. To adjust the scan rate, select "Advanced" under Scan Controls ([Figure 12](#fig:cary60_setup1), B).
 
+4.  The advanced scan screen ([Figure 13](#fig:cary60_setup2), left) will allow you to adjust the data interval or the scan rate; changing one of them will automatically adjust the other. Change the "Data Interval" ([Figure 13](#fig:cary60_setup2), left, A) to something more reasonable (less than 0.5 nm; the instrument's limit is 0.15 nm).
+
+5.  Next, click on the "Baseline" tab ([Figure 13](#fig:cary60_setup2), left, B) at the top of the window. The baseline tab ([Figure 13](#fig:cary60_setup2), right) is used to set the baseline, or zero, correction. Select "Zero/baseline correction" ([Figure 13](#fig:cary60_setup2), right).
+
+6.  Click the "OK" button at the bottom of the window. A pop-up window will appear to inform you that you do not have a valid baseline recorded ([Figure 14](#fig:cary60_baseline), left). Click "OK" to dismiss this window and proceed to record the new baseline and zero.
+
 <a name="fig:cary60_setup1"></a>
 
 ![The basic setup dialog box starting screen.](imgs/equipment_cary60_setup1.png)
 
 **Figure 12** - The basic setup dialog box starting screen.
-
-4.  The advanced scan screen ([Figure 13](#fig:cary60_setup2), left) will allow you to adjust the data interval or the scan rate; changing one of them will automatically adjust the other. Change the "Data Interval" ([Figure 13](#fig:cary60_setup2), left, A) to something more reasonable (less than 0.5 nm; the instrument's limit is 0.15 nm).
 
 <a name="fig:cary60_setup2"></a>
 
@@ -502,15 +506,11 @@ The Cary 60 UV-Vis Spectrophotometer is a research-grade instrument with enough 
 
 **Figure 13** - Advanced scan controls dialog box (left) and the baseline tab dialog box (right).
 
-5.  Next, click on the "Baseline" tab ([Figure 13](#fig:cary60_setup2), left, B) at the top of the window. The baseline tab ([Figure 13](#fig:cary60_setup2), right) is used to set the baseline, or zero, correction. Select "Zero/baseline correction" ([Figure 13](#fig:cary60_setup2), right).
-
 <a name="fig:cary60_baseline"></a>
 
 ![Baseline pop-up window (left), baseline scan dialog box (middle), and zero transmittance dialog box (right).](imgs/equipment_cary60_baseline.svg)
 
 **Figure 14** - Baseline pop-up window (left), baseline scan dialog box (middle), and zero transmittance dialog box (right).
-
-6.  Click the "OK" button at the bottom of the window. A pop-up window will appear to inform you that you do not have a valid baseline recorded ([Figure 14](#fig:cary60_baseline), left). Click "OK" to dismiss this window and proceed to record the new baseline and zero.
 
 ### Recording the instrument baseline and zero
 
@@ -521,6 +521,10 @@ The Cary 60 UV-Vis Spectrophotometer is a research-grade instrument with enough 
 ### Recording spectra
 
 1.  Click "Start" ([Figure 11](#fig:cary60_home), A) to begin collecting spectra. The instrument will start by asking you to choose the location and name of the data file to save ([Figure 15](#fig:cary60_filename1)). Navigate to your USB thumb drive's folder and name the data file something sensible. Click "Save" ([Figure 15](#fig:cary60_filename1)).
+
+2.  A new dialog box will now appear ([Figure 16](#fig:cary60_filename2)). Enter the name of your first sample in the Sample Name field ([Figure 16](#fig:cary60_filename2), A). Make sure that the name is descriptive, as all of the spectra will eventually be saved to the same file. Click "OK" ([Figure 16](#fig:cary60_filename2), B) to begin recording the spectrum. When the instrument has completed, the same dialog box ([Figure 16](#fig:cary60_filename2)) will reappear.
+
+3.  Repeat the previous step for each of your samples. When you are done with all of your samples, click "Finish" ([Figure 16](#fig:cary60_filename2), C).
 
 <a name="fig:cary60_filename1"></a>
 
@@ -534,25 +538,21 @@ The Cary 60 UV-Vis Spectrophotometer is a research-grade instrument with enough 
 
 **Figure 16** - Sample name dialog box.
 
-2.  A new dialog box will now appear ([Figure 16](#fig:cary60_filename2)). Enter the name of your first sample in the Sample Name field ([Figure 16](#fig:cary60_filename2), A). Make sure that the name is descriptive, as all of the spectra will eventually be saved to the same file. Click "OK" ([Figure 16](#fig:cary60_filename2), B) to begin recording the spectrum. When the instrument has completed, the same dialog box ([Figure 16](#fig:cary60_filename2)) will reappear.
-
-3.  Repeat the previous step for each of your samples. When you are done with all of your samples, click "Finish" ([Figure 16](#fig:cary60_filename2), C).
-
 ### Exporting the data in CSV format
 
 1.  To save your data in a format that is readable by Microsoft Excel, click on the "File" menu on the top of [Figure 11](#fig:cary60_home), and then "Save As."
 
 2.  The dialog box that appears ([Figure 17](#fig:cary60_saveas)) will ask you for the name and file type. Navigate to your folder and name the file. Set the file type to Spreadsheet Ascii (\*.CSV) using the "Files of type" drop-down menu ([Figure 17](#fig:cary60_saveas)). Click "Save."
 
+3.  *Important note*: CSV files are not Excel files. You will need to import this file as "Comma Delimited Text." Specific instructions for how to successfully import CSV files in your version of Excel can be found by searching the internet. Once you've successfully opened the file on your computer, save a copy of the data in Excel workbook format. Never work directly from raw data files.
+
+> **Warning:** your computer does not have the ability to read the spectral data files that you've just saved. You must export the data in CSV format in order for the files to be readable on your personal computer.
+
 <a name="fig:cary60_saveas"></a>
 
 ![Save As dialog box.](imgs/equipment_cary60_saveas.png)
 
 **Figure 17** - Save As dialog box.
-
-3.  *Important note*: CSV files are not Excel files. You will need to import this file as "Comma Delimited Text." Specific instructions for how to successfully import CSV files in your version of Excel can be found by searching the internet. Once you've successfully opened the file on your computer, save a copy of the data in Excel workbook format. Never work directly from raw data files.
-
-> **Warning:** your computer does not have the ability to read the spectral data files that you've just saved. You must export the data in CSV format in order for the files to be readable on your personal computer.
 
 ### General guidelines for use of Cary 60 Spectrophotometers
 
