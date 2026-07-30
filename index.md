@@ -16,7 +16,7 @@
 
 ### CH109 Advanced General Chemistry with Quantitative Analysis Lab 1
 
-[Orientation - Gradescope Practice and Measurements Workshop](pdfs/Worksheet%20-%20Gradescope%20Practice%20and%20Measurement%20260729.pdf)
+[Orientation - Gradescope Practice and Measurements Workshop](pdfs/gradescope_practice_workshop)
 
 1. [Tools of the Trade: Spreadsheets and Typesetting](excel_workshop)
 2. [Molecular Size Determination](molecular_size_monolayer)
