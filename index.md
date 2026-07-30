@@ -26,7 +26,7 @@
 6. [Stoichiometry of the Reaction of Magnesium with Strong Acid](gas_laws_statistics)
 7. [Colorimetric Determination of Iron Content](colorimetry)
 8. [Enthalpy of Reaction and Hess's Law](calorimetry)
-9. [Writing Workshop 1]()
+9. [Writing and Argument Organization Workshop](pdfs/writing_workshop_gra)
 
 ### CH110 Advanced General Chemistry with Quantitative Analysis Lab 2
 
