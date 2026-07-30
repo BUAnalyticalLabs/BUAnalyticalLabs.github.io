@@ -149,4 +149,4 @@ All solutions should be disposed of in the appropriate waste container.
 
 ## Lab Worksheet
 
-[Click here for the lab worksheet PDF.](pdfs/Worksheet%20-%20Stoichiometry%20of%20the%20Reaction%20of%20Magnesium%20with%20Strong%20Acid%20260729.pdf) You do **not** have to print a copy for the lab!
+[Click here for the lab worksheet PDF.](pdfs/gas_laws_statistics) You do **not** have to print a copy for the lab!

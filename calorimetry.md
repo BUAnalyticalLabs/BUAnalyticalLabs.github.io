@@ -189,6 +189,6 @@ All waste solutions can go in the aqueous waste container.
 
 ## Lab Worksheet
 
-[Click here for the lab worksheet PDF.](pdfs/Worksheet%20-%20Enthalpy%20of%20Reaction%20and%20Hess's%20Law%20260729.pdf) You do **not** have to print a copy for the lab!
+[Click here for the lab worksheet PDF.](pdfs/calorimetry) You do **not** have to print a copy for the lab!
 
 ## Footnotes
