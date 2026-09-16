@@ -33,11 +33,13 @@ To compute the surface area of a stearic acid molecule we will need to experimen
 *Accuracy* refers to the degree of proximity between a measured value, or set of measurements, and the actual/true value. The simplest measure of experimental accuracy, or agreement, is the *percent relative difference*, sometimes called 'percent error.' There are two different formulas that are used for computing the percent difference, depending on the types of values that are being compared. In cases where we are comparing the value that we determined experimentally ($$x_0$$) to a well-established value ($$\mu_0$$), the percent relative difference between $$x_0$$ and $$\mu_0$$ is computed as:
 
 <a name="eq:PRDa"></a>
+
 $$\% {\rm difference} = \frac{\vert x_0-\mu_0 \vert}{\mu_0} \times 100\%. \tag{2}$$
 
 [Equation 2](#eq:PRDa) is only used when the experimental value is being compared to a known value that is considered to be authoritative ($$\mu_0$$), presumably because it has been studied many times, has been established for many years, or is accepted by the scientific community-at-large to be "true." If, however, neither of the values is considered to be well-established or authoritative, then the percent relative difference is computed as:
 
 <a name="eq:PRDb"></a>
+
 $$\% {\rm difference} = \frac{\vert x_0-x_1 \vert}{(x_0+x_1)/2} \times 100\% \tag{3}$$
 
 where $$x_0$$ is the experimental value that you determine and $$x_1$$ is the other value to which you are comparing your results.
@@ -195,144 +197,72 @@ A sample of stearic acid dissolved in hexanes ($$\sim 0.140 \, {\rm g/L}$$) will
 
 Hexanes has a significant level of neurotoxicity; care should be given when handling and disposing. Permanganate is a strong oxidizing agent and will stain clothing and skin.
 
-Any remaining hexanes must be disposed of in the specially marked waste container located in the fume hood. Dispose of all water that has been contaminated with hexane into the same waste container as was designated for hexane waste. First, small rinses are hazardous waste; all water used to wash and rinse glassware, after the first rinse, may be poured down the drain. Review the linked page regarding the p[roper washing and rinsing of glassware](lab_equipment#washing-and-rinsing-equipment).
+Any remaining hexanes must be disposed of in the specially marked waste container located in the fume hood. Dispose of all water that has been contaminated with hexane into the same waste container as was designated for hexane waste. First, small rinses are hazardous waste; all water used to wash and rinse glassware, after the first rinse, may be poured down the drain. Review the linked page regarding the [proper washing and rinsing of glassware](lab_equipment#washing-and-rinsing-equipment).
 
 *Notebook tip: safety and waste instructions must be included* **inside the procedure at appropriate places**. For instance: in the part of the procedure where hexanes is being used for the first time it would be appropriate to include a warning box about the dangers associated with using hexanes and about how to dispose of it.  Similarly, a warning about what to do with the waste after each part is appropriate. It is **inappropriate** to leave the safety and waste instructions for the end of the procedure.
 
 ## Post-Lab Assignment
 
-Review the section at the beginning of the lab manual regarding the
-appropriate preparation of post-lab assignments.
+Review [this page regarding the appropriate preparation of post-lab assignments](post_lab_assignments).
 
-Prepare an Excel spreadsheet to tabulate and compute the answers to the
-following questions. For each question below, you will find that it is
-best to start by handwriting the sample calculation for each part and
-**only then** preparing your Excel spreadsheet. Trying to do your work
-directly in Excel will likely lead to mistakes and a lot of lost time.
-It is **always** a good idea to write out the calculation by hand, and
-then use Excel to do the calculation. For subsequent calculations, you
-would then only use Excel.
+Prepare an Excel spreadsheet to tabulate and compute the answers to the following questions. For each question below, you will find that it is best to start by handwriting the sample calculation for each part and **only then** preparing your Excel spreadsheet. Trying to do your work directly in Excel will likely lead to mistakes and a lot of lost time. It is **always** a good idea to write out the calculation by hand, and then use Excel to do the calculation. For subsequent calculations, you would then only use Excel.
 
-Make sure to follow the guidelines set forth for preparing your post-lab
-assignment. Consider using the template that you prepared and used in
-the first post-lab -- copying previous template files will speed up your work.
+Make sure to follow the guidelines set forth for preparing your post-lab assignment. Consider using the template that you prepared and used in the first post-lab -- copying previous template files will speed up your work.
 
-Remember: you should use Excel as a powerful calculation aide in order
-to streamline your workflow. That said, your post-lab assignments need
-to be answered in order with the calculations typeset explicitly along
-with your explanations -- you need to make sure that you have one full
-set of calculations for each problem. If there are multiple trials you
-should show one sample calculation for each, and then report the average
-and standard deviation (as $$\bar{x}\pm s$$) -- there is no need to report
-individual trials (or even tabulate the values), unless otherwise noted.
-You are encouraged to continue to use Excel to help make your
-calculations faster and organized; but you should not submit your Excel
-spreadsheets unless directed to do so.
+Remember: you should use Excel as a powerful calculation aide in order to streamline your workflow. That said, your post-lab assignments need to be answered in order with the calculations typeset explicitly along with your explanations -- you need to make sure that you have one full set of calculations for each problem. If there are multiple trials you should show one sample calculation for each, and then report the average and standard deviation (as $$\bar{x}\pm s$$) -- there is no need to report individual trials (or even tabulate the values), unless otherwise noted. You are encouraged to continue to use Excel to help make your calculations faster and organized; but you should not submit your Excel spreadsheets unless directed to do so.
 
-**Finally, report your answers to the correct number of significant
-figures and show all of your work for one sample calculation of each
-type that you do (except average and absolute standard deviation).**
-Consider attending an office hour to show your work product to an
-instructor and get their feedback before the assignment is due.
+**Finally, report your answers to the correct number of significant figures and show all of your work for one sample calculation of each type that you do (except average and absolute standard deviation).** Consider attending an office hour to show your work product to an instructor and get their feedback before the assignment is due.
 
 ### Data analysis: calibration of the micropipette
 
-- For each setting (10 and 20 microliters): use the masses of the water
-  delivered by the micropipette and the density of water to compute the
-  actual volume delivered in each trial. [The table linked here](tables#waterdensity) gives the density of pure water
-  at a variety of temperatures. Compute the average and standard
-  deviation for the volume delivered at each setting of the
-  micropipette.
+- For each setting (10 and 20 microliters): use the masses of the water delivered by the micropipette and the density of water to compute the actual volume delivered in each trial. [The table linked here](tables#waterdensity) gives the density of pure water at a variety of temperatures. Compute the average and standard
+  deviation for the volume delivered at each setting of the micropipette.
 
-  **In your post-lab:** show a full sample calculation for just one of
-  the settings. Remember, you do not need to show a sample calculation
-  for average or absolute standard deviation (**=AVERAGE()** and **=STDEV.S()**!), but you do need to show how you used the correct density to determine the
-  volume of an aliquot. Then, report the average and standard deviation
-  of the actual volume delivered for each setting in the appropriate
-  format.
+  **In your post-lab:** show a full sample calculation for just one of the settings. Remember, you do not need to show a sample calculation for average or absolute standard deviation (**=AVERAGE()** and **=STDEV.S()**!), but you do need to show how you used the correct density to determine the volume of an aliquot. Then, report the average and standard deviation of the actual volume delivered for each setting in the appropriate format.
 
-  Do *not* include a list of table of all your calibration trials - we
-  don't need to see the raw data in your post-lab!
+  Do *not* include a list of table of all your calibration trials - we don't need to see the raw data in your post-lab!
 
-- Calculate the percent relative difference between each setting's
-  theoretical volume and your observed average volume delivered.
+- Calculate the percent relative difference between each setting's theoretical volume and your observed average volume delivered.
 
-  **In your post-lab:** report your calculated percent relative
-  differences for each setting, showing your work for one setting (which
-  percent difference equation you used). Then, compare and contrast the
-  average actual volumes with the theoretical volumes of each setting.
-  Which setting was more accurate?
+  **In your post-lab:** report your calculated percent relative differences for each setting, showing your work for one setting (which percent difference equation you used). Then, compare and contrast the
+  average actual volumes with the theoretical volumes of each setting. Which setting was more accurate?
 
 - Calculate the relative standard deviation for the two settings.
 
-  **In your post-lab:** report your calculated relative standard
-  deviation, showing work for one setting. Then, explain which setting
-  delivers the more precise volume.
+  **In your post-lab:** report your calculated relative standard deviation, showing work for one setting. Then, explain which setting delivers the more precise volume.
 
 ### Data analysis: surface area of a stearic acid molecule
 
 - For each trial of Part 2 of the experiment:
 
-  - Compute the total volume of stearic acid solution delivered from the
-    micropipette. Make sure to use the calibrated volumes, not the
-    theoretical volume of the micropipette settings.
+  - Compute the total volume of stearic acid solution delivered from the micropipette. Make sure to use the calibrated volumes, not the theoretical volume of the micropipette settings.
 
-  - Using the volume that you compute, and the provided concentration of
-    the solution (in g/L), determine the moles of stearic acid contained
-    in the monomolecular film produced in each of the trials.
+  - Using the volume that you compute, and the provided concentration of the solution (in g/L), determine the moles of stearic acid contained in the monomolecular film produced in each of the trials.
 
   - Calculate the number of molecules of stearic acid in the monolayer.
 
-  - Use the measured diameter of the petri dish and the number of
-    stearic acid molecules in the monolayer to calculate the surface
-    area of the head of a stearic acid molecule in $${\rm nm^2}$$.
+  - Use the measured diameter of the petri dish and the number of stearic acid molecules in the monolayer to calculate the surface area of the head of a stearic acid molecule in $${\rm nm^2}$$.
 
-- Calculate the average, standard deviation, and RSD for your value of
-  the surface area of the head of a stearic acid molecule (do not
-  include the pilot run data in your statistics).
+- Calculate the average, standard deviation, and RSD for your value of the surface area of the head of a stearic acid molecule (do not include the pilot run data in your statistics).
 
-  **In your post-lab:** report your calculated average and standard
-  deviation in the appropriate format, showing work for just one trial.
+  **In your post-lab:** report your calculated average and standard deviation in the appropriate format, showing work for just one trial.
 
 ### Questions for thought
 
-The purpose of the 'Questions for Thought' is to have you go beyond what
-we've discussed or apply what we've learned. It is very feasible that
-you will need to do research and discuss some of these with a teaching
-assistant or a colleague. Always cite all sources (books, articles,
-people, etc.) that you use in your work. Make sure to review the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=29)
-chapters 3 and 4 for important details on how to perform meaningful and
-streamlined research in science, and for how to properly format
-citations in your work.
+The purpose of the 'Questions for Thought' is to have you go beyond what we've discussed or apply what we've learned. It is very feasible that you will need to do research and discuss some of these with a teaching assistant or a colleague. Always cite all sources (books, articles, people, etc.) that you use in your work. Make sure to review the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=29) chapters 3 and 4 for important details on how to perform meaningful and
+streamlined research in science, and for how to properly format citations in your work.
 
-Note: it would be helpful to read these questions *before* you perform
-the experiment. In that way, you can discuss these concepts with your
-peers and instructors during any down-time in the lab.
+Note: it would be helpful to read these questions *before* you perform the experiment. In that way, you can discuss these concepts with your peers and instructors during any down-time in the lab.
 
 **In your post-lab**, answer the following questions:
 
-- Does your value for the surface area of the head of a stearic acid
-  molecule seem reasonable? Include a well-researched justification for
-  your assertion. Hint: look up average bond lengths for the relevant
-  bonds in the head-group of stearic acid (the structure is given in
-  Figure ). Use the structure and these lengths to estimate a reasonable
-  length and surface area for the polar head group. If your value seems
-  incorrect by more than one order of magnitude, check your unit
-  conversions and dimensional analyses.
+- Does your value for the surface area of the head of a stearic acid molecule seem reasonable? Include a well-researched justification for your assertion. Hint: look up average bond lengths for the relevant bonds in the head-group of stearic acid (the structure is given in [Figure 1](#fig:monofilm)). Use the structure and these lengths to estimate a reasonable length and surface area for the polar head group. If your value seems incorrect by more than one order of magnitude, check your unit conversions and dimensional analyses.
 
-- How would your results have been affected if you had not calibrated
-  your micropipette? Would not calibrating your pipette have led to
-  random error or bias? Explain briefly.
+- How would your results have been affected if you had not calibrated your micropipette? Would not calibrating your pipette have led to random error or bias? Explain briefly.
 
-- Why was it necessary to keep the hexanes covered at all times? What
-  were you trying to avoid? How would this have negatively impacted your
-  results? Would not covering your solution have led to random error or
-  bias? Explain briefly.
+- Why was it necessary to keep the hexanes covered at all times? What were you trying to avoid? How would this have negatively impacted your results? Would not covering your solution have led to random error or bias? Explain briefly.
 
-- The waste from the experiment was specially segregated away from the
-  normal aqueous (water) waste. Why was this important? *Note: it is
-  always important to know what waste you are generating and the proper
-  way to handle it.*
+- The waste from the experiment was specially segregated away from the normal aqueous (water) waste. Why was this important? *Note: it is always important to know what waste you are generating and the proper way to handle it.*
 
 > **Submitting your post-lab assignment using Gradescope**
 >
