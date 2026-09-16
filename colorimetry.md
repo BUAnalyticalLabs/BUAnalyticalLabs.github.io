@@ -146,6 +146,8 @@ For the pipetting in this lab: use volumetric pipettes when possible. Otherwise,
 
 - Obtain 40 mL of the prepared iron stock solution (this solution will have a concentration of approximately $$0.04\,{\rm mg}$$ Fe per mL; record the exact concentration that is provided and use that concentration in your calculations). Pipette 10.00 mL into a beaker and record the pH using pH paper. Add sodium citrate solution dropwise until the pH is about 3.5. Count the number of drops required. Dispose of this solution.
 
+  If the pH of the solution is already > 3.5, you do not need to add citrate to any of your calibration standards. Check with your lab instructor if this standard is pH > 6!
+
 - Pipette a fresh 10.00 mL aliquot of the iron solution into a 100 mL volumetric flask and add the number of drops of sodium citrate solution determined in the previous step. Also add 2.00 mL of hydroquinone solution and 3.00 mL of *o*-phenanthroline solution. Dilute this solution to the 100 mL mark and mix well. Make sure to follow the instructions [on this page](lab_equipment#volumetric-flasks) for proper use of volumetric flasks.
 
 - As you will have a limited supply of 100 mL volumetric flasks, transfer each solution as it is made to a plastic bottle. Make sure to wash out each bottle with deionized water and then a small amount of your solution to ensure no contamination[^2].
