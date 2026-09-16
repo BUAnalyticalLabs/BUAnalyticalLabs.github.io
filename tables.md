@@ -5,7 +5,9 @@
 
 ## Units, Constants, and Values
 
-### Fundamental constants<a name="constants"></a>
+### Fundamental constants
+
+<a name="constants"></a>
 
 | **Name**                |**Symbol**           |**Value**  |
 |:------------------------|:--------------------|:----------|
@@ -27,7 +29,9 @@
 | Speed of light          | $$c$$               | $$2.99792 \times 10^{8} \, {\rm m \cdot s^{-1}}$$ |
 | Gravitational constant  | $$g$$               | $$9.80665 \, {\rm m \cdot s^{-2}}$$ |
 
-### Prefixes for SI units<a name="SIprefixes"></a>
+### Prefixes for SI units
+
+<a name="SIprefixes"></a>
 
 |  **Prefix** | **Symbol** |         **Meaning**             |    | **Prefix**    | **Symbol** |         **Meaning** |
 |-------------|------------|---------------------------------|----|--------------|--------------|----------------------------------|
@@ -39,7 +43,9 @@
 |    deca-    |     da     |      $$10$$ or $$10^{1}$$       |    |   femto-        | f          |       $$10^{-15}$$
 |    deci-    |     d      |     $$1/10$$ or $$10^{-1}$$     |    |   atto-         | a          |       $$10^{-18}$$
 
-### Common units (SI and derived units)<a name="SIunits"></a>
+### Common units (SI and derived units)
+
+<a name="SIunits"></a>
 
 | **Quantity** |  **Unit**        |  **Symbol**               |  **Definition** |
 |--------------|------------------|---------------------------|------------------------------------------------------|
@@ -63,7 +69,9 @@
 | Concentration|molar             |$${\rm M}$$                |  $${\rm 1\,M\,=\,1\,mol\,(L\,of\,solution)^{-1}}$$
 |              |molal             |$${\rm m}$$                |  $${\rm 1\,m\,=\,1\,mol\,(kg\,of\,solvent)^{-1}}$$
 
-### Select water vapor pressures by temperature<a name="watervaporpressure"></a>
+### Select water vapor pressures by temperature
+
+<a name="watervaporpressure"></a>
 
 | **Temp. ($${\rm ^\circ C}$$)** | **$$P_{\rm H_2 O} \, ({\rm mmHg})$$** | **Temp. ($${\rm ^\circ C}$$)** | **$$P_{\rm H_2 O} \, ({\rm mmHg})$$** | **Temp. ($${\rm ^\circ C}$$)** | **$$P_{\rm H_2 O} \, ({\rm mmHg})$$** |
 |--------------------------------|---------------------------------------|-------------------------------|---------------------------------------|-------------------------------|---------------------------------------|
@@ -80,7 +88,9 @@
 
 *Note: Approximate values for the pressures at non-integer temperatures can be determined by rounding or averaging.  Precise values can be researched online.*
 
-### Density of liquid water ($${\rm \mu g / mL}$$) at various temperatures ($${\rm ^\circ C}$$)<a name="waterdensity"></a>
+### Density of liquid water ($${\rm \mu g / mL}$$) at various temperatures ($${\rm ^\circ C}$$)
+
+<a name="waterdensity"></a>
 
 |     | 0.0    |    0.1 |    0.2 |    0.3 |    0.4 |    0.5 |    0.6 |    0.7 |    0.8 |    0.9 |
 |:---:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
@@ -106,7 +116,9 @@
 
 Whole degrees are listed down the far-left hand column of the table and tenths of a degree are listed across the top row. To find the density of water at say $$5.6^\circ {\rm C}$$: first locate the `5` in the left-most column.  Then, move across until you reach the column labeled `0.6`. Multiply the resultant value by $$10^{-6}$$ to get the density in g/mL. The density of water at $$5.6^\circ {\rm C}$$ is $$0.999970 \, {\rm g/mL}$$.
 
-### Standard reduction potentials at $${\rm 25^\circ C}$$<a name="reductionpotentials"></a>
+### Standard reduction potentials at $${\rm 25^\circ C}$$
+
+<a name="reductionpotentials"></a>
 
 | **Reduction Half-Reaction**                                                                                             |          | **$${\rm E^\circ \, (V)}$$**
 |------------------------------------------------------------------------------------------------------------|----------|--------------------------------
@@ -163,7 +175,9 @@ Reduction potentials for half-reactions at standard conditions: the dissolved sp
 
 ## Common Statistics Values
 
-### Values of Student's $$t$$, Grubbs, and Dixon Q statistics<a name="statstGQ"></a>
+### Values of Student's $$t$$, Grubbs, and Dixon Q statistics
+
+<a name="statstGQ"></a>
 
 | **Number of observations** | **Degrees of freedom** | **Students' t** | **Grubbs** | **Dixon's Q** |
 |:--------------------------:|:----------------------:|:---------------:|:---------:|:-------------:|
@@ -183,7 +197,9 @@ All values are reported that the 95% confidence limit ($$\alpha=0.05$$, two-tail
 
 For values of Student's $$t$$ other than those listed in the table above, you can use the Excel command **=T.INV.2T($$\alpha$$, degrees of freedom)**. For example, to $$t_{\rm table}$$ for 12 degrees of feedom, the command would be **=T.INV.2T(0.05, 12)**.
 
-### Critical values for the $$F$$ statistic for $$s_1$$ numerator degrees of freedom and $$s_2$$ denominator degrees of freedom<a name="statsf"></a>
+### Critical values for the $$F$$ statistic for $$s_1$$ numerator degrees of freedom and $$s_2$$ denominator degrees of freedom
+
+<a name="statsf"></a>
 
 |                |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   |  10    |12    |15    |20    |30    | $$\infty$$
 |:--------------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:--------:
