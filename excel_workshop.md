@@ -190,7 +190,7 @@ $$
 
 remove the equation number.
 
-Once you've gotten the full balanced equation typeset and had a chance to practice, **ask a lab instructor for feedback**.
+Once you've gotten the full balanced equation typeset and had a chance to practice adding an equation number, **ask a lab instructor for feedback**.
 
 ### Organization of a spreadsheet 
 
@@ -452,7 +452,7 @@ Unfortunately, the format and types of default graphs that Excel makes are far f
 
 **Problem \#3 -- Tabulating and Presenting Data:** In this problem will use Excel to tabulate and graph data that is collected.
 
-Using the data you collected at the start of the workshop (day of the month on which 10 people from your section were born and the house number where they live), prepare a table and graph of this data, following the guidelines provided in chapter 2 of the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17). Include these exhibits of your data in your **post-lab assignment**. Be careful to *follow all of the guidelines* for preparing appropriate tables and figures, including things like formatting, **captions** for figures, **titles**Undergraduate's Guide to Writing in the Sciences for tables, and more.
+Using the data you collected at the start of the workshop (day of the month on which 10 people from your section were born and the house number where they live), prepare a table and graph of this data, following the guidelines provided in chapter 2 of the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17). Include these exhibits of your data in your **post-lab assignment**. Be careful to *follow all of the guidelines* for preparing appropriate tables and figures, including things like formatting, **captions** for figures, **titles** for tables, and more.
 
 *There are videos available on the course website to help with creating tables and graphs in Excel and Word*. Also, **ask you lab instructor for feedback** on your completed exhibits.
 
