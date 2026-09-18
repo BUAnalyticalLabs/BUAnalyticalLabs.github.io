@@ -320,7 +320,7 @@ When performing future calculations in Excel, we recommend the following practic
 >
 > Under **Worked Example #1b**, *briefly* explain how cell referencing works and what would have happened if you hadn't used cell references in your spreadsheet.
 
-Hopefully you now realize that it is very valuable to reference cells; especially because if you make a mistake in a calculation you can just go back and correct the one cell with the mistake, and all subsequent cells that include the reference will adjust according to the correction.\
+Hopefully you now realize that it is very valuable to reference cells; especially because if you make a mistake in a calculation you can just go back and correct the one cell with the mistake, and all subsequent cells that include the reference will adjust according to the correction.
 
 **Worked Example #2** You are preparing a set of dilutions from a stock iron (Fe) solution with initial concentration of $$0.50$$ mg/L.
 
