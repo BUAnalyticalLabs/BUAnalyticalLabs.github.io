@@ -334,7 +334,7 @@ The number of moles of solute are computed from the volume of stock (original) s
 >
 > **Spreadsheet for Worked Example #2**. Notice that the units and values are separated into two separate cells, which is necessary in order to use Excel to use the values in the calculations.
 >
-> Complete the table (the correct value for cell is $$5.0\times 10^{-3}$$). **In your post-lab assignment:** what is the value of cell **D11**? Include this value, along with your sample calculation for the value of **D11**.
+> Complete the table (the correct value for cell **D8** is $$5.0\times 10^{-3}$$). **In your post-lab assignment:** what is the value of cell **D11**? Include this value, along with your sample calculation for the value of **D11**.
 >
 > Hint: using the dollar signs before both **B** and **2** allows you to keep the cell **B2** as a reference cell as you copy equations. In your own words, describe what would have happened if you would have only put a dollar sign in front of the **B**. Include the answer to this question in your **Word document for the post-lab assignment**.
 
