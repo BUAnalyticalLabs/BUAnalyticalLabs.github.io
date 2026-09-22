@@ -67,7 +67,7 @@ Also note: it is *perfectly ok* if you don't have time to finish this workshop d
 
 The first skill we'll work on is typesetting (adding or arranging content in a printed document) chemical and mathematical equations with appropriate formatting. To do so, we'll use a sample stoichiometry problem.
 
-**Worked Example #1:** If you mix $$5.000$$ g of $${\rm Fe_2 O_3} \, (s)$$ with an excess of $${\rm CO} \, (g)$$, (a) what mass and number of molecules of forms? (b) what mass and number of molecules of form?
+**Worked Example #1:** If you mix $$5.000$$ g of $${\rm Fe_2 O_3} \, (s)$$ with an excess of $${\rm CO} \, (g)$$, (a) what mass and number of molecules of $${\rm Fe} \, (s)$$ forms? (b) what mass and number of molecules of $${\rm CO_2} \, (g)$$ form?
 
 When typesetting your work for this example, the process will be smoother if you have already done the mental work of solving the problem. Begin by balancing the chemical equation for the reaction with your lab partner, writing it out in your lab notebook so you can refer to it when adding the equation to your document. The unbalanced reaction is:
 
