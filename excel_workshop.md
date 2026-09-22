@@ -258,7 +258,7 @@ You may realize that an excessive number of decimal places appear in some of you
 
 That said, you may want to change the number of decimal places that are being displayed to make it easier to read or to see more detail. This is accomplished with the *format cells* feature. With this feature it is possible to edit the numbers displayed within the cells to a different number of decimals, scientific notation, fractions, percentages, and many other formats that you may need. Explore the possibilities.
 
-> Convert values in column D into scientific notation, and all values within the table to have three decimal places (cell should read 9.393E-02, which you would type or write as $$9.393\times 10^{-2}$$ for any submitted work).
+> Convert values in column D into scientific notation, and all values within the table to have three decimal places (cell **D4** should read 9.393E-02, which you would type or write as $$9.393\times 10^{-2}$$ for any submitted work).
 > 
 > Add $$= 3.131\times 10^{-2}$$ to your sample calculation for **Worked Example #1** in your **post-lab assignment**. Additional details about appropriate practices for formatting and presenting values are given in the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17) chapter 2.
 
@@ -270,21 +270,21 @@ With calculators there is always the danger that rounding too early will result 
 >
 > Continue working with the table on sheet WE1b.
 
-When typing out the equations to fill in the blank cells, it is not necessary to retype numbers that are already present, but rather you can click on the reference cell containing that number. Consider cell where you calculated the moles of carbon dioxide produced from the mass of in the worked example; your formula should look something like:
+When typing out the equations to fill in the blank cells, it is not necessary to retype numbers that are already present, but rather you can click on the reference cell containing that number. Consider cell **D4** where you calculated the moles of carbon dioxide $${\rm CO_2} (g)$$ produced from the mass of $${\rm Fe_2 O_3} (s)$$ in the worked example; your formula should look something like:
 
 $$=(5.000/159.69)*(3/1)$$
 
-where $$159.69$$ is the molar mass of and $$3/1$$ is the stoichiometric ratio. Instead of manually entering the numbers, consider the following version that references the appropriate cells in the table:
+where $$159.69$$ is the molar mass of $${\rm Fe_2 O_3} (s)$$ and $$3/1$$ is the stoichiometric ratio. Instead of manually entering the numbers, consider the following version that references the appropriate cells in the table:
 
 `**=D2\*(B4/B2)**`
 
-When used in an equation, cell names or references will tell the spreadsheet to use the value in the referenced cell in the calculation. The above formula takes the moles of in cell and multiplies it by the mole ratio of the coefficient for in to the coefficient for in . Note that while you are editing the formula in a cell, it will highlight referenced cells used in the formula - very useful for tracking your work in the spreadsheet and for catching mistakes!
+When used in an equation, cell names or references will tell the spreadsheet to use the value in the referenced cell in the calculation. The above formula takes the moles of $${\rm Fe_2 O_3} (s)$$ in cell **D2** and multiplies it by the mole ratio of the coefficient for $${\rm CO_2} (g)$$ in **B4** to the coefficient for $${\rm Fe_2 O_3} (s)$$ in **B2**. Note that while you are editing the formula in a cell, it will highlight referenced cells used in the formula - very useful for tracking your work in the spreadsheet and for catching mistakes!
 
 The true benefit of cell referencing in formulas is the ability to quickly repeat calculations:
 
-If you copy a formula containing referenced cells down a number of rows, then it will automatically adjust the cell references to match the new cell. For instance, let us assume that you have the formula **=(G2/A2)\*H2** in cell . If you copy this cell to then the formula will now read: **=(G3/A3)\*H3**. If you copy the cell to then the formula will read **=(H3/B3)\*I3**.
+If you copy a formula containing referenced cells down a number of rows, then it will automatically adjust the cell references to match the new cell. For instance, let us assume that you have the formula **=(G2/A2)\*H2** in cell . If you copy this cell to **I3** then the formula will now read: **=(G3/A3)\*H3**. If you copy the cell to **J3** then the formula will read **=(H3/B3)\*I3**.
 
-It is often the case that we want to copy the general formula, but that some of the cell references should remain unchanged. If you add a dollar sign (\$) before the letter or number in the cell reference then it will remain unchanged when copied. If, in our previous example, cell had been **=(G2/\$A\$2)\*\$H2** then copying the cell to would give the formula: **=(H3/\$A\$2)\*\$H3**. Creating these absolute references like this (references to specific cells that do not move as you copy formulas to multiple cells) is particularly useful when doing repeat calculations that involve the same conversion factors or constants multiple times.
+It is often the case that we want to copy the general formula, but that some of the cell references should remain unchanged. If you add a dollar sign (\$) before the letter or number in the cell reference then it will remain unchanged when copied. If, in our previous example, cell **I2** had been **=(G2/\$A\$2)\*\$H2** then copying the cell to **J3** would give the formula: **=(H3/\$A\$2)\*\$H3**. Creating these absolute references like this (references to specific cells that do not move as you copy formulas to multiple cells) is particularly useful when doing repeat calculations that involve the same conversion factors or constants multiple times.
 
 Note that you can click the standard *copy* and then *paste* when copying one cell to another. If the initial cell does not contain an equation it will simply copy the value. However, if you copy a cell containing an equation, the standard copy and paste sequence copies the formula, and not the value. If you want to copy and paste the value within the cell and not the equation, first click on *copy* followed by *paste special* and then *values*.
 
@@ -310,13 +310,13 @@ When performing future calculations in Excel, we recommend the following practic
 
   When done, select the final result cell so that the formula is being edited to confirm that all the cell references are correct.
 
-> In your sheet WE1b, add a column between columns and for the molar masses of the compounds. Fill in the appropriate molar masses in your table. Split the values and units into two separate cells, so that you can reference the values in your calculations -- if the units are included in the cell with the value, then Excel will not be able to interpret the value.
+> In your sheet WE1b, add a column between columns **C** and **D** for the molar masses of the compounds. Fill in the appropriate molar masses in your table. Split the values and units into two separate cells, so that you can reference the values in your calculations -- if the units are included in the cell with the value, then Excel will not be able to interpret the value.
 >
 > Reference these cells with the molar masses in your other calculations in the table. Edit the cells in the table on sheet WE1b to use referenced cells, wherever appropriate.
 >
 > **Ask your instructor for feedback** on this sheet when you are finished. Their primary role is to give you guidance and feedback to help improve your work.
 >
-> Change the value in cell to $$6.500$$. **In your Word document**, relabel **Worked Example #1** as **Worked Example #1a** and start a new section for **Worked Example #1b**. Include the values of cells and (the moles of and after changing the mass of ) in your assignment, as well as the sample calculation (properly typeset) for the value of (make sure to follow the guidelines given above).
+> Change the value in cell **C2** to $$6.500$$. **In your Word document**, relabel **Worked Example #1** as **Worked Example #1a** and start a new section for **Worked Example #1b**. Include the values of cells **E3** and **E4** (the moles of $${\rm Fe} (s)$$ and $${\rm CO_2} (g)$$ after changing the mass of $${\rm Fe_2 O_3} (s)$$) in your assignment, as well as the sample calculation (properly typeset) for the value of **E3** (make sure to follow the guidelines given above).
 >
 > Under **Worked Example #1b**, *briefly* explain how cell referencing works and what would have happened if you hadn't used cell references in your spreadsheet.
 
