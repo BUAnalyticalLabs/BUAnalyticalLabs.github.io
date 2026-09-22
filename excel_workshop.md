@@ -142,7 +142,7 @@ Variable names and numbers will display correctly just by typing them into the e
 > where \_ means pressing the spacebar.
 > You should end up with
 >
-> $${\rm Fe_2 O_3} (s)$$
+> $${\rm Fe_2 O_3} \, (s)$$
 >
 > Once you have that, go ahead and typeset the rest of the chemical equation following the conventions above and using the autocorrects you created (such as when you need to add the arrow $$\to$$). Don't forget to balance it!
 
@@ -270,15 +270,15 @@ With calculators there is always the danger that rounding too early will result 
 >
 > Continue working with the table on sheet WE1b.
 
-When typing out the equations to fill in the blank cells, it is not necessary to retype numbers that are already present, but rather you can click on the reference cell containing that number. Consider cell **D4** where you calculated the moles of carbon dioxide $${\rm CO_2} (g)$$ produced from the mass of $${\rm Fe_2 O_3} (s)$$ in the worked example; your formula should look something like:
+When typing out the equations to fill in the blank cells, it is not necessary to retype numbers that are already present, but rather you can click on the reference cell containing that number. Consider cell **D4** where you calculated the moles of carbon dioxide $${\rm CO_2} \, (g)$$ produced from the mass of $${\rm Fe_2 O_3} \, (s)$$ in the worked example; your formula should look something like:
 
 $$=(5.000/159.69)*(3/1)$$
 
-where $$159.69$$ is the molar mass of $${\rm Fe_2 O_3} (s)$$ and $$3/1$$ is the stoichiometric ratio. Instead of manually entering the numbers, consider the following version that references the appropriate cells in the table:
+where $$159.69$$ is the molar mass of $${\rm Fe_2 O_3} \, (s)$$ and $$3/1$$ is the stoichiometric ratio. Instead of manually entering the numbers, consider the following version that references the appropriate cells in the table:
 
 `**=D2\*(B4/B2)**`
 
-When used in an equation, cell names or references will tell the spreadsheet to use the value in the referenced cell in the calculation. The above formula takes the moles of $${\rm Fe_2 O_3} (s)$$ in cell **D2** and multiplies it by the mole ratio of the coefficient for $${\rm CO_2} (g)$$ in **B4** to the coefficient for $${\rm Fe_2 O_3} (s)$$ in **B2**. Note that while you are editing the formula in a cell, it will highlight referenced cells used in the formula - very useful for tracking your work in the spreadsheet and for catching mistakes!
+When used in an equation, cell names or references will tell the spreadsheet to use the value in the referenced cell in the calculation. The above formula takes the moles of $${\rm Fe_2 O_3} \, (s)$$ in cell **D2** and multiplies it by the mole ratio of the coefficient for $${\rm CO_2} \, (g)$$ in **B4** to the coefficient for $${\rm Fe_2 O_3} \, (s)$$ in **B2**. Note that while you are editing the formula in a cell, it will highlight referenced cells used in the formula - very useful for tracking your work in the spreadsheet and for catching mistakes!
 
 The true benefit of cell referencing in formulas is the ability to quickly repeat calculations:
 
@@ -316,7 +316,7 @@ When performing future calculations in Excel, we recommend the following practic
 >
 > **Ask your instructor for feedback** on this sheet when you are finished. Their primary role is to give you guidance and feedback to help improve your work.
 >
-> Change the value in cell **C2** to $$6.500$$. **In your Word document**, relabel **Worked Example #1** as **Worked Example #1a** and start a new section for **Worked Example #1b**. Include the values of cells **E3** and **E4** (the moles of $${\rm Fe} (s)$$ and $${\rm CO_2} (g)$$ after changing the mass of $${\rm Fe_2 O_3} (s)$$) in your assignment, as well as the sample calculation (properly typeset) for the value of **E3** (make sure to follow the guidelines given above).
+> Change the value in cell **C2** to $$6.500$$. **In your Word document**, relabel **Worked Example #1** as **Worked Example #1a** and start a new section for **Worked Example #1b**. Include the values of cells **E3** and **E4** (the moles of $${\rm Fe} \, (s)$$ and $${\rm CO_2} \, (g)$$ after changing the mass of $${\rm Fe_2 O_3} \, (s)$$) in your assignment, as well as the sample calculation (properly typeset) for the value of **E3** (make sure to follow the guidelines given above).
 >
 > Under **Worked Example #1b**, *briefly* explain how cell referencing works and what would have happened if you hadn't used cell references in your spreadsheet.
 
