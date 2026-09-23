@@ -99,12 +99,12 @@ To set up an autocorrect in Microsoft Word, use one of the other methods above t
 
 | Replace       |       With       |   |  Replace |      With |
 |---------------|------------------|---|----------| ------------|
-| \\degree      |   $$^{\circ}$$   |   | \\lrhar  | $$\leftrightharpoons$$ |
-| \\mu          |      $$\mu$$     |   |\\to      |   $$\to$$ |
-| \\Delta       |   $$\Delta$$     |   |\\pm      |   $$\pm$$ |
-| \\lambda      |    $$\lambda$$   |   | \\minus  |   $${}-{}$$ |
-| \\varepsilon  |  $$\varepsilon$$ |   | \\tt     |  $$\times10$$ |
-| \\nu          |      $$\nu$$     |
+| \\degree      |        ∘         |   | \\lrhar  |   ⇋ |
+| \\mu          |        μ         |   |\\to      |   → |
+| \\Delta       |        Δ         |   |\\pm      |   ± |
+| \\lambda      |        λ         |   | \\minus  |   − |
+| \\varepsilon  |        ε         |   | \\tt     |  ×10 |
+| \\nu          |        ν         |
 
 
 Another benefit of setting this up is that some office productivity suites including Microsoft Office will use these shortcuts across multiple programs; for example, setting this up in Microsoft Word will also set them up in Microsoft Excel. To make this process a little easier, download the file located at <http://goo.gl/sykryo>. This document has many of the important symbols for which you will want to make autocorrects. *There are videos available on the course website to help with setting these up!*
