@@ -276,7 +276,7 @@ $$=(5.000/159.69)*(3/1)$$
 
 where $$159.69$$ is the molar mass of $${\rm Fe_2 O_3} \, (s)$$ and $$3/1$$ is the stoichiometric ratio. Instead of manually entering the numbers, consider the following version that references the appropriate cells in the table:
 
-`**=D2\*(B4/B2)**`
+`=D2*(B4/B2)`
 
 When used in an equation, cell names or references will tell the spreadsheet to use the value in the referenced cell in the calculation. The above formula takes the moles of $${\rm Fe_2 O_3} \, (s)$$ in cell **D2** and multiplies it by the mole ratio of the coefficient for $${\rm CO_2} \, (g)$$ in **B4** to the coefficient for $${\rm Fe_2 O_3} \, (s)$$ in **B2**. Note that while you are editing the formula in a cell, it will highlight referenced cells used in the formula - very useful for tracking your work in the spreadsheet and for catching mistakes!
 
