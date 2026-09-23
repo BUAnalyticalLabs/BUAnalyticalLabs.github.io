@@ -99,7 +99,7 @@ To set up an autocorrect in Microsoft Word, use one of the other methods above t
 
 | Replace       |       With       |   |  Replace |      With |
 |---------------|------------------|---|----------| ------------|
-| \\degree      |        ∘         |   | \\lrhar  |   ⇋ |
+| \\degree      |        °         |   | \\lrhar  |   ⇋ |
 | \\mu          |        μ         |   |\\to      |   → |
 | \\Delta       |        Δ         |   |\\pm      |   ± |
 | \\lambda      |        λ         |   | \\minus  |   − |
