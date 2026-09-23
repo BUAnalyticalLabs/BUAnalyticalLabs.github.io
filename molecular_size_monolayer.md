@@ -5,7 +5,7 @@
 
 ## Introduction 
 
-The ability to perform quantitative experimentation in the chemistry laboratory is dependent on our ability to accurately *count* the molecules involved in a given chemical system or reaction. For instance, one liter of an ideal gas at room temperature will be composed of approximately  gas molecules. The need to count large numbers of molecules (on the order of $10^{23}$) in order to perform quantitative experiments would be very cumbersome.
+The ability to perform quantitative experimentation in the chemistry laboratory is dependent on our ability to accurately *count* the molecules involved in a given chemical system or reaction. For instance, one liter of an ideal gas at room temperature will be composed of approximately  gas molecules. The need to count large numbers of molecules (on the order of $$10^{23}$$) in order to perform quantitative experiments would be very cumbersome.
 
 Mass, while useful for indicating the total amount of matter present, cannot by itself be used as a measure of the number of atoms or molecules. Rather, we use the molar mass (mass of exactly one mole of a substance) to determine the number of items. A 'mole' is similar to a dozen. Both are grouping of items that can be used conveniently to avoid counting large numbers of items. A mole of items is equivalent to $$N_A$$ items, where $$N_A$$ is *Avogadro's constant* (or Avogadro's number).
 
