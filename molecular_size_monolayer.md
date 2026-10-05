@@ -177,7 +177,7 @@ A sample of stearic acid dissolved in hexanes ($$\sim 0.140 \, {\rm g/L}$$) will
 
 - Acquire a glass Petri dish and measure its *inner* diameter.
 
-- Wash the Petri dish with detergent and rinse it thoroughly with water and then with deionized water. Place it on a level area of the bench on top of a paper towel (for better visibility) and fill about halfway with deionized water. Add a very small amount ($$\sim 5 \, {\rm mg}$$) of ; the purple color from the permanganate will help you to better discern the organic phase.
+- Wash the Petri dish with detergent and rinse it thoroughly with water and then with deionized water. Place it on a level area of the bench on top of a paper towel (for better visibility) and fill about halfway with deionized water. Add a very small amount ($$\sim 5 \, {\rm mg}$$) of $${\rm KMnO_4}$$; the purple color from the permanganate will help you to better discern the organic phase.
 
 - Label a beaker and add approximately 15 mL of the stearic acid solution. Always label solutions being used.
 
