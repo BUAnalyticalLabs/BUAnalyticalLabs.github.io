@@ -143,6 +143,8 @@ So the question now becomes: if uncomplexed ions do not absorb visible light, wh
 
 ## Lab Worksheet
 
+In the lab, you will use two different spectrophotometers, a [Spectronic-200](lab_equipment#spectronic-200-visible-light-bench-top-spectrophotometer) and a [Cary 60](https://buanalyticallabs.github.io/lab_equipment#cary-60-uv-visible-spectrophotometer). Before coming to lab, make sure to read the instructions in these links.
+
 [Click here for the lab worksheet PDF.](pdfs/spectroscopy_workshop) You do **not** have to print a copy for the lab!
 
 ## Footnotes
