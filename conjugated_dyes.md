@@ -215,11 +215,13 @@ In this proposed modification to how we use our model, the equation for excitati
 
 Another way to approach modeling is to use experimental data to try to fit our model. Let's see how this approach can be used to calculate the length of the conjugated system and estimate bond lengths.
 
-Instead of making assumptions about the box length, $$L$$, the spectroscopic data can be used to calculate the box length. Also, the experimentally determined box lengths, $L$, can then be used to compute the bond lengths, $$l_B$$. To calculate a value for the C--C bond distance (i.e., the average bond length $$l_B$$), the following equation is used:
+Instead of making assumptions about the box length, $$L$$, the spectroscopic data can be used to calculate the box length. Also, the experimentally determined box lengths, $$L$$, can then be used to compute the bond lengths, $$l_B$$. To calculate a value for the C--C bond distance (i.e., the average bond length $$l_B$$), the following equation is used:
 
-$$L = b\cdot l_B + \gamma \tag{9}$$
+<a name="eq:empirical_box_length"></a>
 
-where $$L$$ is the box length computed in from the spectroscopy data, $b$ is the number of bonds, and $$\gamma$$ is an empirical correction factor. By plotting the calculated $$L$$ values versus $$b$$, the slope of the line of best fit will be the bond length $$l_B$$ and the $$y$$-intercept will be $$\gamma$$.
+$$L = b \cdot l_B + \gamma \tag{9}$$
+
+where $$L$$ is the box length computed in from the spectroscopy data, $$b$$$ is the number of bonds, and $$\gamma$$ is an empirical correction factor. By plotting the calculated $$L$$ values versus $$b$$, the slope of the line of best fit will be the bond length $$l_B$$ and the $$y$$-intercept will be $$\gamma$$.
 
 - Rearrange equation [equation 6](#eq:e4) to be suitable for calculating $$L$$ for a given wavelength. Using your experimentally determined wavelengths, calculate $$L$$ for each of the dyes.
 
