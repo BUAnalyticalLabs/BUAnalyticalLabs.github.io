@@ -172,75 +172,82 @@ Kuhn, H. *J. Chem. Phys.* **1949**, *17*, 1198-1212.
 
 ## Post-Lab Assignment 
 
-Updated post-lab assignment to come!
+### Initial predictions and comparing to observations
 
-<!--
-1.  \
-    You may find it useful to review concepts from lab #4. Consider the spectrum in Figure :
+We will start by calculating the predicted absoprtion wavelengths for each of the dyes using the model described in the introduction to this experiment. Use Excel to tabulate the values and streamline your calculations.
 
-    1.  There are two peaks in the spectrum (at 650 nm and 700 nm), which correspond to two different changes in the molecule. Calculate the energy of the light being absorbed that corresponds to the *smallest energy change in the molecule* (in kJ/mol).
+- Start by determining the number of electrons in the conjugated $$\pi$$ system for each dye. Note: this includes the delocalized lone pair, but does not include all of the double bonds in the entire molecule (only the highlighted conjugated system).
 
-    2.  The visible range of the spectrum is 380-800 nm, while the instruments that we used record the UV and visible light regions (180-900). Why don't we plot the UV region of spectra that are recorded in plastic cuvettes? If we wanted to see this region, what would we have to do?
+  **In your post-lab,** begin creating a table for comparing the model predictions to observed results for each dye molecule. You should include all the pertinent values and the predicted wavelengths, and one sample calculation for the wavelength for *just one* of the molecules (including all of the important values). Make sure to review appropriate table formatting in the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17) chapter 2.
 
-    3.  How would the you expect the spectrum to change if it was recorded using a $0.50$ cm cuvette instead of a $1.00$ cm cuvette? Explain briefly.
+- You will also need to estimate the length of each molecule's conjugated system by determining the number of single bonds between the nitrogen atoms. Make sure that you compute the length in meters, not Angstroms.
 
-2.  \
-    We will start by calculating the predicted absoprtion wavelengths for each of the dyes using the model described in the introduction to this experiment. Use Excel to tabulate the values and streamline your calculations.
+- Calculate the predicted absorption wavelength (in nm) using the equation for the excitation wavelength.
 
-    1.  Start by determining the number of electrons in the conjugated $\pi$ system for each dye. Note: this includes the delocalized lone pair, but does not include all of the double bonds in the entire molecule (only the highlighted conjugated system).
+Next, let's compare to your observed absorption spectra for the dyes:
 
-    2.  You will also need to estimate the length of each molecule's conjugated system by determining the number of single bonds between the nitrogen atoms. Make sure that you compute the length in meters, not Angstroms.
+- Using Excel, plot the spectra (380-900 nm). Use smoothed lines with no data point markers. *This choice is different than how we usually graph our data for things like calibration curves. Explain very briefly why this is appropriate here.* Plot all of the 2,2' dyes on the same graph and all of the 4,4' dyes on a second graph. Make sure to include appropriate captions for each figure that you produce. Make sure to review appropriate figure formatting in the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17) chapter 2.
 
-    3.  Calculate the predicted absorption wavelength (in nm) using the equation for the excitation wavelength.
+  **In your post-lab,** include both figures.
 
-    For this question, include a single properly-formatted table containing the pertinent values and the predicted wavelengths, and one sample calculation for the wavelength for one of the molecules (including all of the important values). Make sure to review appropriate table formatting in the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17) chapter 2.\
+- From your spectra, determine the wavelength and absorbance at the maximum absorbance wavelength ($$\lambda_{\rm max}$$) for each dye.
 
-3.  1.  Using Excel, plot the spectra (380-900 nm). Use smoothed lines with no data point markers. *This choice is different than how we usually graph our data for things like calibration curves. Explain very briefly why this is appropriate here.* Plot all of the 2,2' dyes on the same graph and all of the 4,4' dyes on a second graph. Make sure to include appropriate captions for each figure that you produce. Make sure to review appropriate figure formatting in the [Undergraduate's Guide to Writing in the Sciences](https://www.bu.edu/chemed/files/2021/02/UG-Guide-Writing-Sciences-v0.9.pdf#page=17) chapter 2.
+  **Add these observed wavelengths to the table in your post-lab**.
 
-    2.  Determine the wavelength and absorbance at the maximum absorbance wavelength ($\lambda_{\rm max}$) for each dye. Tabulate your data.
+- How well do your predictions from the initial particle-in-a-box model agree with the measured wavelengths? **Explain in your post-lab**. Make sure to include a sample calculation for your percent difference calculations, and **include these values in the table**.
 
-    3.  How well do your predictions in question 2 agree with the measured wavelengths? Explain. Make sure to include a sample calculation for your percent difference calculations, and include these values in the table you produced in 3(b).
 
-    4.  Using the absorbances and the concentrations of the dyes, calculate the molar absorptivity (in ${\rm M}^{-1}\mathrm{cm^{-1}}$) of the dyes at $\lambda_{\rm max}$. Show your work for one calculation. Add these values to the table you made in 3(b). Note: in general, it is preferable to minimize the number of tables includes and maximize the utility of any given table by including any relevant data; it is conceivable that multiple sections of a paper or report could reference the same table.
+### Revisions to the model
 
-4.  As you saw in question 3(c), our model has not done a particularly good job of predicting our dyes' excitaiton wavelengths. Let's propose a set of modifications to our model.
+As you've seen, our model has not done a particularly good job of predicting our dyes' excitaiton wavelengths. Let's propose a set of modifications to our model.
 
-    It is not realistic to expect the edge of the box to be the nitrogen atoms -- in other words, the nitrogens do not behave as inifinitely potential barriers. We know that the electrons are delocalized onto these atoms, but according to how we discussed using the model, the energy of the electrons here would be infinite.
+It is not realistic to expect the edge of the box to be the nitrogen atoms - in other words, the nitrogens do not behave as inifinitely potential barriers. We know that the electrons are delocalized onto these atoms, but according to how we discussed using the model, the energy of the electrons here would be infinite.
 
-    In a modification of our initial model, the box could be allowed to extend one bond beyond each nitrogen atom so that the nitrogen atoms remain inside the box while keeping the number of electrons the same. This could help improve the ability of our model to make predicitons based on how we believe the electrons are actually behaving.
+In a modification of our initial model, the box could be allowed to extend one bond beyond each nitrogen atom so that the nitrogen atoms remain inside the box while keeping the number of electrons the same. This could help improve the ability of our model to make predicitons based on how we believe the electrons are actually behaving.
 
-    In this proposed modification to how we use our model, the equation for excitation wavelength prediciton remains the same. The only difference is that the number of bonds ($b$) will be 2 greater than the number of bonds used previously (and the number of electrons will not have changed).
+In this proposed modification to how we use our model, the equation for excitation wavelength prediciton remains the same. The only difference is that the number of bonds ($$b$$) will be 2 greater than the number of bonds used previously (and the number of electrons will not have changed).
 
-    1.  Calculate the wavelengths expected for each dye using our refined model, and present the data in a table (should this be a new table, or should you include it in the table that you've already started constructing?). Show work.
+- Calculate the wavelengths expected for each dye using our refined model, and present the data in a table (should this be a new table, or should you include it in the table that you've already started constructing?).
 
-    2.  Compare the wavelengths predicted by this refined model to your experimentally-determined wavelengths. Which does a better job: the initial model or our refined model? Explain.
+  Make sure to also include a sample calculation **in your post-lab**.
 
-5.  Another way to approach modeling is to use experimental data to try to fit our model. Let's see how this approach can be used to calculate the length of the conjugated system and estimate bond lengths.
+- Compare the wavelengths predicted by this refined model to your experimentally-determined wavelengths. Which does a better job: the initial model or our refined model? **Explain in your post-lab** and **add this comparison to your table**.
 
-    Instead of making assumptions about the box length, $L$, the spectroscopic data can be used to calculate the box length. Also, the experimentally determined box lengths, $L$, can then be used to compute the bond lengths, $l_B$. To calculate a value for the C--C bond distance (i.e., the average bond length $l_B$), the following equation is used:
+Another way to approach modeling is to use experimental data to try to fit our model. Let's see how this approach can be used to calculate the length of the conjugated system and estimate bond lengths.
 
-    $$\begin{equation}
-        L = b\cdot l_B + \gamma
-        \label{9}
-    \end{equation}$$
+Instead of making assumptions about the box length, $$L$$, the spectroscopic data can be used to calculate the box length. Also, the experimentally determined box lengths, $L$, can then be used to compute the bond lengths, $$l_B$$. To calculate a value for the C--C bond distance (i.e., the average bond length $$l_B$$), the following equation is used:
 
-    where $L$ is the box length computed in from the spectroscopy data, $b$ is the number of bonds, and $\gamma$ is an empirical correction factor. By plotting the calculated $L$ values versus $b$, the slope of the line of best fit will be the bond length $l_B$ and the $y$-intercept will be $\gamma$.
+$$L = b\cdot l_B + \gamma \tag{9}$$
 
-    1.  Rearrange equation ([\[e4\]](#e4){reference-type="ref" reference="e4"}) to be suitable for calculating $L$ for a given wavelength. Using your experimentally determined wavelengths, calculate $L$ for each of the dyes. Tabulate your results in a table.
+where $$L$$ is the box length computed in from the spectroscopy data, $b$ is the number of bonds, and $$\gamma$$ is an empirical correction factor. By plotting the calculated $$L$$ values versus $$b$$, the slope of the line of best fit will be the bond length $$l_B$$ and the $$y$$-intercept will be $$\gamma$$.
 
-    2.  Using the data for $L$ from (a) and using both series of dyes (the 4,4' and 2,2' series): generate plots (2 graphs total), and calculate the bond length $l_B$ and correction factor ($\gamma$) using LINEST. Include a cropped screenshot (only include the relevant part) of the LINEST table from your spreadsheet in your assignment.
+- Rearrange equation [equation 6](#eq:e4) to be suitable for calculating $$L$$ for a given wavelength. Using your experimentally determined wavelengths, calculate $$L$$ for each of the dyes.
 
-    3.  What flaws are there in using this approach to calculate the bond length? Explain.
+  **In your post-lab,** include the rearranged equation, a sample calculation, and the calculated $$L$$ for each dye in the table.
 
-    4.  Is this still a particle in a box model, or have we used a different model here? Explain.
+- Using the data for $$L$$ from above and using both series of dyes (the 4,4' and 2,2' series): generate plots (2 graphs total), and calculate the bond length $$l_B$$ and correction factor ($$\gamma$$) using LINEST.
 
-6.  1.  Based on our experimental results, what conclusions (claims) can we make about the particle-in-a-box model's ability to predict the excitation wavelengths of dye molecules like the ones we've studied? Explain.
+  **In your post-lab,** include both figures and a cropped screenshot (only include the relevant part) of the LINEST table from your spreadsheet.
 
-    2.  The premise of this model is based on a set of assumptions. What, if any, flaws are there in applying these assumptions to molecules like the ones we are studying? How did this affect our ability to use the particle-in-a-box model to make predictions for these molecules?
+- What flaws are there in using this approach to calculate the bond length? **Explain in your post-lab**.
 
-    3.  Propose a possible modification to improve and build on our model. Be specific and detailed in your description. Explain briefly the reasons for your proposed modification(s).
+- Is this still a particle in a box model, or have we used a different model here? **Explain in your post-lab**.
 
--->
+### Interpretation and conclusions
+
+**In your post-lab,** answer the following questions.
+
+- *Reviewing molecular spectroscopy* - There are two peaks in the spectrum (at 650 nm and 700 nm), which correspond to two different changes in the molecule. Calculate the energy of the light being absorbed that corresponds to the *smallest energy change in the molecule* (in kJ/mol).
+
+- *Reviewing molecular spectroscopy* - The visible range of the spectrum is 380-800 nm, while the instruments that we used record the UV and visible light regions (180-900). Why don't we plot the UV region of spectra that are recorded in plastic cuvettes? If we wanted to see this region, what would we have to do?
+
+- *Reviewing molecular spectroscopy* - How would the you expect the spectrum to change if it was recorded using a 0.50 cm cuvette instead of a 1.00 cm cuvette? Explain briefly.
+
+- Based on our experimental results, what conclusions (claims) can we make about the particle-in-a-box model's ability to predict the excitation wavelengths of dye molecules like the ones we've studied? Explain.
+
+- The premise of this model is based on a set of assumptions. What, if any, flaws are there in applying these assumptions to molecules like the ones we are studying? How did this affect our ability to use the particle-in-a-box model to make predictions for these molecules?
+
+- Propose a possible modification to improve and build on our model. Be specific and detailed in your description. Explain briefly the reasons for your proposed modification(s).
 
 > **Submitting your post-lab assignment using Gradescope**
 >
