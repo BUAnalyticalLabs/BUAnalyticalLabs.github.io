@@ -221,7 +221,7 @@ Instead of making assumptions about the box length, $$L$$, the spectroscopic dat
 
 $$L = b \cdot l_B + \gamma \tag{9}$$
 
-where $$L$$ is the box length computed in from the spectroscopy data, $$b$$$ is the number of bonds, and $$\gamma$$ is an empirical correction factor. By plotting the calculated $$L$$ values versus $$b$$, the slope of the line of best fit will be the bond length $$l_B$$ and the $$y$$-intercept will be $$\gamma$$.
+where $$L$$ is the box length computed in from the spectroscopy data, $$b$$ is the number of bonds, and $$\gamma$$ is an empirical correction factor. By plotting the calculated $$L$$ values versus $$b$$, the slope of the line of best fit will be the bond length $$l_B$$ and the $$y$$-intercept will be $$\gamma$$.
 
 - Rearrange equation [equation 6](#eq:e4) to be suitable for calculating $$L$$ for a given wavelength. Using your experimentally determined wavelengths, calculate $$L$$ for each of the dyes.
 
