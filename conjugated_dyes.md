@@ -125,6 +125,8 @@ Start by preparing a table exactly like the one in [figure 5](#fig:excelLINEST) 
 
 ## Procedure 
 
+You'll collect your spectra on a [Cary 60 UV-Vis spectrometer](https://buanalyticallabs.github.io/lab_equipment#cary-60-uv-visible-spectrophotometer), so make sure to review the linked page for reminders on how to use it!
+
 *Make sure to bring a laptop computer and a flash drive for this lab. If you don't have a flash drive may be able to borrow one from your lab instructor.*
 
 You may use your lab manual in lab this week to refer to the dye structures and the equations, but you will still use your lab notebooks in this lab.\
