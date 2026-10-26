@@ -97,6 +97,12 @@ $$\lambda = \frac{8m_ec\left(b \cdot l_B \right)^2}{h(N + 1)} \tag{7}$$
 
 Let's return to the example of 1,1'-diethyl-4,4'-dicarbocyanine iodide ([figure 1](#fig:cyanine)) that we started earlier. Notice that the two nitrogens in this molecule are separated by twelve single bonds (excluding any double-bonds), which means that $$b = 12$$. All that remains is to use a reasonable guess for the average bond length and we will be able to make a prediction about the maximum absorbance wavelength. For our purposes, we will use the carbon-carbon (C--C) bond distance in benzene as a first guess for the average bond length in our conjugated dyes. This choice is a good one because benzene is very similar to the molecules that we are studying: benzene can also be described by two resonance structures, and so the C--C distance is intermediate between a single and double bond, as is the case here. In benzene the average length of a C--C bond is 1.40 Å (1 Å = $$1 \times 10^{-10} \, {\rm m}$$).
 
+<a name="fig:dyescyanine"></a>
+
+![The two series of conjugated cyanine dyes: 2,2' (left) and 4,4' (right).  For clarity, all of the iodide anions have been omitted. The length of the conjugated pi systems are bolded for clarity.](imgs/conjugateddyes_dyescyanine.svg)
+
+**Figure 5** - The two series of conjugated cyanine dyes: 2,2' (left) and 4,4' (right).  For clarity, all of the iodide anions have been omitted. The length of the conjugated $$\pi$$-systems are bolded for clarity.
+
 ### Empirical modeling in chemistry 
 
 Empirical modeling refers to the activity of creating models for the physical world using the results of experiment. The general process involves observing and studying a relationship between the behavior of the model and that of its referent (the thing being modeled). The term "empirical" means that the modeling process will likely involve one or more of the following characteristics: it may involve a lot of trial-and-error, it may be based on numerical modeling and formulas, and/or it may lead to a model that gets a "correct" answer without actually affording good reason for why it should be correct.
