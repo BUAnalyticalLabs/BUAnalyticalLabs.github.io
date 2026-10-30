@@ -29,6 +29,8 @@ $$P_{\rm bar} = P_{\rm H_{2}} + P_{\rm water} \tag{3}$$
 
 where $$P_{\rm bar}$$ is the barometric pressure in the lab, $$P_{\rm water}$$ is the water vapor pressure at the ambient temperature of the lab, and $$P_{\rm H_{2}}$$ is the pressure of the gas generated.
 
+[You can find a table of vapor pressures for water by temperature linked here!](tables#watervaporpressure)
+
 The final quantity required, the volume of the gas evolved, will be calculated from the mass of water displaced from the siphon by the reaction and the density of the water at that temperature. Using all of this information, the number of moles of $${\rm H_2}$$ generated is computed using the Ideal Gas Law. Finally, from the number of moles of $${\rm H_2}$$ generated, the stoichiometric factor is then computed.
 
 ### Grubbs test 
@@ -71,7 +73,7 @@ For a data set containing a limited number of measurements, it is impossible to 
 
 $$\mu = \bar{x} \pm \Delta = \bar{x} \pm \frac{ts}{\sqrt{N}} \tag{5}$$
 
-where $$s$$ is the sample standard deviation, $N$ is the number of observations, and $$t$$ is Student's $$t$$ and is taken from Table [\[tab:QGt\]](#tab:QGt){reference-type="ref" reference="tab:QGt"}. For historical reasons, which have now become the accepted convention in statistics, we will use the 95% confidence limit (i.e., $$\alpha = 0.05$$) values for $$t$$.
+where $$s$$ is the sample standard deviation, $N$ is the number of observations, and $$t$$ is Student's $$t$$ - [you can find a table of critical values for Student's *t* linked here](tables#statstGQ). For historical reasons, which have now become the accepted convention in statistics, we will use the 95% confidence limit (i.e., $$\alpha = 0.05$$) values for $$t$$.
 
 In some larger data sets, the statistics in the table will not be sufficient. In those cases, Excel is capable of computing the t-statistic using the formula: **T.INV.2T(alpha, df)** where `alpha` is 0.05 for the 95% confidence limit and `df` is the number of degrees of freedom ($$N-1$$).
 
@@ -102,6 +104,8 @@ Until now we have compared our experimental results to literature, or known, val
 ## Procedure 
 
 You will work in pairs for this experiment. While the experiment is straightforward, you will have to perform five (5) trials. Consequently, you will need to work efficiently in order to finish all of the experiment in the time allotted and complete the analysis.
+
+*Notebook tip: when doing statistical analysis in the lab, like for this experiment, record important critical values in your notebook like $$G$$ and $$t$$ for the likely numbers of trials you'll do! [Remember you can find them in the table linked here.](tables#statstGQ)*
 
 ### Assembling the apparatus and siphon 
 
@@ -139,7 +143,7 @@ Remove the pinch clamp, then raise and lower the beaker so that water flows back
 
   Similar to the titrations you did earlier in the semester, you may want to consider your first trial a "pilot", then have a total of five non-pilot trials.
 
-*Notebook tip: before leaving, make sure that you record the barometric pressure and the ambient temperature in the lab.*
+*Notebook tip: before beginning the worksheet, make sure that you record the barometric pressure and the ambient temperature in the lab.*
 
 ## Safety and Waste Disposal 
 
